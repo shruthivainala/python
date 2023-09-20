@@ -1,0 +1,3894 @@
+====================================================================
+		Course :-    PYTHON Programming
+                             +
+		with NUMPY and PANDAS ---->Data Science /AI / ML / DL
+====================================================================
+		Real time Applications of Python Programming
+====================================================================
+1. Web Application Development
+2. Gaming Application Development
+3. Artificial Inteligence and Mchine Learning , Deep Learning , Data Science
+4. Desktop GUI Applications
+5. Image Processing 
+6. Text Processing
+7. Business Applications
+8. Education Programs and Training Programs.
+9. Audio and Video Based Application
+10.Web Scrapping / Web Harvesting Application.
+11. Data Visulization in Data Science
+12. Scientific and Numerical Operation 
+13. Software Development
+14. Operating Development
+15. CAD Based Application
+16. Embedded Application 
+17. Cosole based Applications.
+18. Computer Vision
+19. Language Development
+20. Automation of Testing
+21. Animation applications
+22. Data Analysis and Data Analystics
+23. Development of IOT 
+==================================================================
+
+======================
+   History of Python
+=======================
+=>Python Programming Lang conceived in th year 1980
+=>Python Programming Lang Implementation began in the year 1989
+=>Python Programming Lang  officially released in the year 1991
+=>Python Programming Lang developed by GUIDO VAN ROSSUM
+=>Python Programming Lang developed in Country Nether lands at CWI 
+=>ABC Programming is the predecesor of Python Programming Lang
+-----------------------------------------------------------------------------------------------
+  Versions of Python
+----------------------------
+=>We have two types of Python Versions. They are
+
+		1) Python 2.x , here  x  represents 1  2  3 4 5 6   7
+
+		2) Python 3.x , here  x represents 0 1 2 3 4 5 6 7 8 9 10 11
+
+=>Python 3.x does not contain backward compatability. 
+=>Now Industry is using Python 3.x 
+=>In otherwords Python3.x contains totally different features compared     to Python 2.x
+=>Python Programming lang is maintained by a non-commercial	         organization called python Software Foundation (PSF) and whose official web site is www.python.org
+--------------------------------------------------
+DownLoading process of Python
+--------------------------------------------------
+----------------------------------------------------------------------------------------
+Python Programming Inspired From:
+------------------------------------------------------------
+	1) Functional Programming  from  C
+	2) Object Oriented Programming from CPP
+	3) Scripting Programming   from PERL
+	4) Modular Programming from  MODULO3
+------------------------------------------------------------
+        ============================================
+			Features of Python
+	============================================
+=>Features of language are nothing but Services (or) Facilities provided by Language developers which are used by language Programmers for devolping real time applications.
+=>Python Programming provides 11 features . They are		
+		1. Simple
+		2. Freeware and Open Source
+		3. platform Independent 
+		4. Dynamically Typed Programming
+		5. Interpreted Programming
+		6. High Level Programming
+		7. Robust (Strong )
+		8. Both Procedural and Object Oriented Programming
+		9. Extensible
+		10. Embedded
+		11. Supports Third party APIs---Numpy, Pandas, Scipy, Scikit, matplotlib
+=========================X================================
+
+============================
+1. Simple
+============================
+=>Python is one of the simple programming language bcoz of 3 Technical factors. They are
+	  
+ a) Python Programming Rich set of APIs. So that programmer can re-use the		pre-defined code without writing our own code.
+
+Def. of API(Application Programming Interface):
+--------------------------------------------------------------------
+=>An API is a collection of Modules. A Module is a collection of Variables, functions and classes
+Examples:-  math, cmath, calendar,os,random,re,cx_Oracle, mysql-connector..etc
+--------------------------------------------------------------------------------------------------------------
+b) Python Programming Provides In-Built facility called "Garbage Collector". So that It collects un-used memory space and improves the performnace of Python Based Applications.
+---------------------------------------
+Def. of Garbage Collector:
+---------------------------------------
+=>A Garbage collector is one of the background program running behind of our regular Python Python Program, whose role is collecting Un-used memory space and improves perfomance of python based applications.
+-------------------------------------------------------------------------------------------------------------
+c) Python programming provides User-Friendly Syntaxes. So that Python Programmer can develop the  error-Free programs in limited span of time.
+--------------------------------------------------------------------------------------------------------------
+2. Freeware and Open Source:
+------------------------------------------
+=>Freeware:
+--------------------
+=>Since Python software can be downloaded freely from www.python.org and hence Python software of on the Freeware.
+=>The Python software, we download from www.python.org and whose standard name is    " CPYTHON "
+
+=>Open Source:
+-----------------------
+=>Some Companies came foward and customized CPYTHON and they are using as inhouse tools and Customized versions of CPYTHON are called "Distributions of PYTHON"
+=>Some of the "Distributions of PYTHON" are
+	1) Jpython (or) Jython------>Used to execute Java Based Applications
+	2) Micro Python ---------->used to develop Micro Controller Applications
+	3) Iron Python--------->Used To run C#.net Applications
+	4) Ankonda Python--->Used to run Hadoop / Big data Applications
+	5) Stackless python --->used for developing Concurrency Applications
+	6) Pypy---Provides JIT compiler
+	7) Ruby Python----Used to run Ruby based Applications....etc
+============================================
+3. platform Independent 
+============================================
+Concept:
+-------------
+=>A lang or Tech is said to be platform independent if and only if whose applications (or) programs runs on every OS without considering their Vendors.
+----------------
+Property:
+---------------
+=>In Python Programming, all the values are stored in the form of Objects and object does not contain any size restrictions.
+Examples:
+----------------
+=>C,CPP...etc are called Platform Dependent lang, bcoz whose data types takes different memory spaces on different OSes
+
+=>Java------------called  platform Independent , bcoz whose data types takes same memory space (with size restrctions) and Java Objects can store any number of values with fixed number of values)
+
+=>Python--------called  platform Independent , Python data types are classes and whose objects can store un-limited amount of data on any OS.
+"IN PYTHON ALL VALUES ARE STORED IN THE FORM OF OBJECTS AND BEHIND OBJECTS, WE HAVE CLASSES"
+
+===============================================
+4. Dynamically Typed Programming
+===============================================
+=>In context programming language, we have two types
+
+		a) Static Typed Programming Languages
+		b) Dynamically Typed Programming Languages
+
+
+a) Static Typed Programming Languages:
+-----------------------------------------------------------
+=>In These languages, It is mandatory for the Programmer must specify the data type otherwise we get Compile Time Error
+Examples:
+----------------   C, CPP, Java, .NET
+
+
+
+b) Dynamically Typed Programming Languages:
+--------------------------------------------------------------------
+=>In These languages, The language Runtime Enviroment will decide the data type depends on type of value assigned by programmer.
+
+Examples:-         PYTHON 
+
+Examples:-
+--------------------
+>>> a=10
+>>> print(a)-----------------------------------10
+>>> type(a)-----------------------------------<class 'int'>
+>>> a=12.34
+>>> print(a)----------------------------------12.34
+>>> type(a)-----------------------------------<class 'float'>
+>>> a=True
+>>> print(a)----------------------------------True
+>>> type(a)----------------------------------<class 'bool'>
+>>> a=2+3j
+>>> print(a)---------------------------------(2+3j)
+>>> type(a)---------------------------------<class 'complex'>
+
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print(a, type(a))------------------10 <class 'int'>
+>>> print(b, type(b))----------------20 <class 'int'>
+>>> print(c, type(c))--------------- 30 <class 'int'>
+
+
+===============================
+6. High Level Programming
+===============================
+=>In this context, Two types of programming languages. They are
+
+		1) Low Level Programming Languages
+		2) High Level Programming
+
+1) Low Level Programming Languages:
+---------------------------------------------------------
+=>In this languages, we represent the data in the form of Binary, Hexa and Octal and Which are understandable by Various Devies and they are not directly understanble by Humans.
+
+2) High Level Programming:
+-----------------------------------------
+=>The Low Level Programming Language data representation is automatically converted into High level Understandable Format i.e Deciaml Number System
+
+
+=========================
+7. Robust (Strong )
+==========================
+=>Python is one of the Robust(Strong) , bcoz of a Programming feature called "Exception Handling"
+
+Exception
+----------------------
+Runtime errors of a programs are called Exceptions.
+=>Exceptions always gives Technical Error Messages, which are underrsatnable by Programmers but not by applications users.
+------------------------------
+Exception handling:
+------------------------------
+=>The process of converting Technical Error Messages into User-Freindly error messages is called Exception Handling.
+
+===================================
+9. Extensible
+===================================
+
+=>The Python programming giving its programming facilities to ther languages and hence Python is one of the extensible Programming language.
+
+===================================
+10. Embedded
+===================================
+=>Python Programming can call other languages coding segments for fastthe execution purpose.
+
+Example: Python code can call C programming Code.
+=========================================================
+11. Supports Third party APIs---Numpy, Pandas, Scipy, Scikit, matplotlib
+=============================================================
+=>The traditional Python Programming Projects efficiency increased by Third party APIs .
+
+=======================================
+Data Representation in Python
+=======================================
+
+=>We know that with help data type, memory space is created and inputs gets stored. To Process the input, we must some distinct names to created memory space. hence the distinct names makes us to identify the values present inb memory space and they are called Identifers.
+=>Here the Identifier values are changing during execution of program and they are also called Variables.
+=>Hence Every Input of the Program must be stored in the of variables and all the variables are called "object"
+
+=>Hence to represent the data in Python, we need
+		a) data types
+		b) Variables (objects)
+==========================================================
+==================================
+ Rules for using Variables in Python
+==================================
+=>To use the Variables in Python, we use the following Rules
+
+1) The Variable name is a combination of Alphabets, Digits and special        Symbol ( _ )
+2) The First letter of the variable must starts either with alphabet or		under score ( _ )
+     Examples:
+     ----------------
+     				empsal=12----valid
+				#sal=34
+				3sal=1.2-----invalid
+				_sal=2.3-----valid
+				__=34---valid
+				_$=45----invalid
+				_1=34----valid
+				_kvr_="python"---valid
+
+3)No special symbols are allowed within the variable except under score ( _ )
+	Examples:-     emp-sal=3.4---invalid
+				emp$sal=3.4---invalid
+				emp_sal=34---valid
+				emp_sal#ibm=134--valid
+				print(emp_sal)-----34
+
+4) No keywords to used as Variables Names (Bcoz Keywords are the reserved words and they have some specific meaning to compiler)
+		Examples:
+				while=12----invalid
+				else=3.4-----invalid
+				int =12.34---valid
+
+5) It is always recommended to take User-Friendly  Variables.
+	Example:   employeesalary=3.4---Not recommended
+			   empsal=3.4----Recommended 
+
+=====================================
+a) int 
+=====================================
+=>'int' is one of the pre-defiend class and treated as Fundamental Data		Type
+=>int data type is used for storing Integral  Values / whole numbers           (Values without decimal Places)
+
+Examples:			Outputs
+----------------                      -------------------
+>>> a=10
+>>> print(a)----------------------------10
+>>> type(a)-----------------------------<class 'int'>
+>>> a=123
+>>> print(a, type(a))---------------123 <class 'int'>
+>>> empno=2345
+>>> print(empno, type(empno))---------2345 <class 'int'>
+----------------------------------------------------------------------------------------------
+=>int data also stores Different Number Systems Data.
+=>We have 4 Types of Number Systems. They are
+
+		1. Decimal Number System( default )
+		2. Binary Number System
+		3.Octal Number System
+		4. Hexa Decimal Number System.
+---------------------------------------------------------------------------------------
+2. Binary Number System:
+------------------------------------------
+=>Digits:-    0  1------------ (2)--Total Number of digits
+=>Base :-     2
+=>To Store Binary data in python programming, The binary data must be preceded with 0b (or) 0B
+
+=>Syntax:-       varname=0b binary data
+				(or)
+			varname=0B binary data
+			
+=>Internally Every Binary value is converted into Deciaml Number System value automatically 
+Examples:
+------------------
+>>> a=0b1010
+>>> print(a)------------------10
+>>> a=10
+>>> a=0B101
+>>> print(a)-----------------5
+>>> a=0b11100011
+>>> print(a)---------------------227
+>>> a=0b00000000000000000000000000001
+>>> print(a)-------------1
+>>> a=0b101012--------SyntaxError: invalid digit '2' in binary literal
+--------------------------------------------------------------------------------------------------
+2. Octal Number System:
+------------------------------------------
+=>Digits:-    0 1 2 3 4 5 6 7-------------- (8)--Total Number of digits
+=>Base :-     8
+=>To Store Octal data in python programming, The octal data must be preceded with 0o (or) 0O
+
+=>Syntax:-       varname=0o octal data
+				(or)
+			varname=0O octal data
+			
+=>Internally Every Octal value is converted into Deciaml Number System value automatically 
+Examples:
+----------------
+>>> a=0o21
+>>> print(a, type(a))-------------------17 <class 'int'>
+>>> b=oct(17)
+>>> print(b)-----------------------------0o21
+>>> print(b,type(b))------------------0o21 <class 'str'>
+>>> a=0o123
+>>> print(a, type(a))---------------83 <class 'int'>
+>>> a=0o1278-----------------------SyntaxError: invalid digit '8' in octal							literal
+------------------------------------------------------------------------------------------------
+4. Hexa Decimal Number System.:
+----------------------------------------------------
+Digits:-   0,1,2,3,4,5,6,7,8,9
+               A(10),B(11),C(12),D(13),E(14),F(15)
+Base:-   16
+
+=>To Store Hexa Decimal data in python programming, The Hexa Decimal data must be preceded with 0x (or) 0X
+
+=>Syntax:-       varname=0x Hexa Decimal data
+				(or)
+			varname=0X Hexa Decimal data
+
+Examples:-
+>>> a=0xAC
+>>> print(a, type(a))-------------172 <class 'int'>
+>>> a=172
+>>> a=0xBEE
+>>> print(a)-----------------3054
+>>> a=0XACE
+>>> print(a)------------2766
+>>> a=0xFace
+>>> print(a)---------------64206
+
+>>> a=0XACER----------SyntaxError: invalid syntax
+===============================X========================
+============================================
+Base Conversion Functions
+============================================
+=>The Purpose of  Base Conversion Functions is that to convert One Number System Value into another Number System value.
+=>In Python Programming, we have 3 base convertion functions. They are
+		a) bin()      
+		b) oct()
+		c) hex()
+----------------------------------------------------------------------------------------
+a) bin()
+------------
+=>This function is used for converting Decimal, Octal and Hexa Decimal Number System values into Binary Number System Value.
+
+=>Syntax:-   varname=bin(Decimal / Octal / Hexa-Decimal)
+
+Examples:
+----------------
+>>> a=15
+>>> print(a, type(a))-----------15 <class 'int'>
+>>> b=bin(a)
+>>> print(b, type(b))----------0b1111 <class 'str'>
+>>> a=10
+>>> b=bin(a)
+>>> print(b, type(b))-----------0b1010 <class 'str'>
+
+>>> a=0o21
+>>> print(a, type(a))-----------17 <class 'int'>
+>>> b=bin(a)
+>>> print(b, type(b))---------0b10001 <class 'str'>
+>>> a=0o345
+>>> print(a, type(a))----------229 <class 'int'>
+>>> b=bin(a)
+>>> print(b, type(b))---------0b11100101 <class 'str'>
+
+>>> a=0xA
+>>> b=bin(a)
+>>> print(b, type(b))---------0b1010 <class 'str'>
+>>> a=0xBEE
+>>> b=bin(a)
+>>> print(b, type(b))-----------0b101111101110 <class 'str'>
+>>> print(bin(0xF))----------0b1111
+>>> print(bin(0x1A))----------0b11010
+-------------------------------------------------------------------------------------
+b) oct():
+----------------
+=>This function is used for converting Decimal, Binary and Hexa Decimal Number System values into Octal Number System Value.
+
+=>Syntax:-   varname=oct(Decimal / Binary / Hexa-Decimal)
+
+Examples:
+------------------
+>>> a=17
+>>> b=oct(a)
+>>> print(b, type(b))-----------0o21 <class 'str'>
+>>> a=123
+>>> b=oct(a)
+>>> print(b, type(b))-----------0o173 <class 'str'>
+>>> a=0b1111
+>>> b=oct(a)
+>>> print(b, type(b))------------0o17 <class 'str'>
+>>> print(oct(0o7))----------0o7
+>>> print(oct(0B110))----------0o6
+>>> a=0XF
+>>> b=oct(a)
+>>> print(b, type(b))---------------0o17 <class 'str'>
+>>> print(oct(0xBEE))----------0o5756
+-------------------------------------------------------------------------------------------------
+c) hex():
+--------------
+=>This function is used for converting Decimal, Binary and Octal Number System values into Hexa Decimal Number System Value.
+
+=>Syntax:-   varname=hex(Decimal / Binary / Octal )
+
+Examples:-
+------------------
+>>> a=15
+>>> b=hex(a)
+>>> print(b, type(b))--------------0xf <class 'str'>
+>>> a=3054
+>>> b=hex(a)
+>>> print(b, type(b))------------0xbee <class 'str'>
+>>> a=0b1011
+>>> b=hex(a)
+>>> print(b, type(b))----------0xb <class 'str'>
+>>> print(hex(172))----------0xac
+>>> a=0o21
+>>> b=hex(a)
+>>> print(b, type(b))-----------0x11 <class 'str'>
+
+===============================
+b) float
+===============================
+=>'float' is one of the pre-defined class and treated as fundamental data type.
+=>This Data type is used for storing Floting point values (or) real constant values ( Values with decimal places)
+=>This data type never supports Binary , Octal and Hexa Decimal Number system representation.
+=>This data type can also be used for representing Scientific Notation of floating pont values.
+=>The general Notation of Scientific Notation is  "mantisa e exponent"
+
+Examples:
+-----------------
+>>> a=12.34
+>>> print(a, type(a))-------------12.34 <class 'float'>
+>>> a=34e2
+>>> print(a, type(a))-----------3400.0 <class 'float'>
+>>> a=12e-4
+>>> print(a, type(a))----------0.0012 <class 'float'>
+>>> a=23.45e-6
+>>> print(a, type(a))----------2.345e-05 <class 'float'>
+>>> a=0.00000000000000000000000000000000000001
+>>> print(a, type(a))-------1e-38 <class 'float'>
+
+>>> a=0b1010.0b1010-------------SyntaxError: invalid syntax
+>>> a=0o12.0b1111------------SyntaxError: invalid syntax
+>>> a=0xBEE.0o123--------SyntaxError: invalid syntax
+========================X==============================
+===========================================
+c) bool
+===========================================
+=>'bool' is one of the pre-defined class and treated as Fundamental data type
+=>The purpose of this data type is that "To store  True  False (Logical value) "
+=>Internally, Th boolean Value True is considered as 1 and boolean Value False is considered as 0
+=>On the values of bool data type ,we can perform all types of Operations.
+Examples:
+---------------
+>>> a=True
+>>> print(a, type(a))--------------True <class 'bool'>
+>>> b=False
+>>> print(b, type(b))-----------False <class 'bool'>
+-------------------------------------------------------------------------------
+Examples:
+----------------
+>>> print(True+False)----------1
+>>> print(False-False)----------0
+>>> print(True+True)---------2
+>>> print(True*True-False*True)---------1
+>>> print(True*2-4)----------2
+>>> print(True*0b1111)-------15
+>>> print(0b1111*False-0xF)----------15
+>>> print(False*False-True)---------1
+>>> print(True>True)-----------False
+>>> print(True==True)---------True
+>>> print(False==False)-----------True
+----------------------------------------------------X------------------------------------------------------
+========================================
+d)  complex
+========================================
+=>"complex' is one of the pre-defined class and it is treated as Fundamental data Type.
+=>The purpose of Complex data type is that "To Store Complex Data "
+=>The general Format of Complex Data is given bellow
+			
+			a+bj    (or)    a-bj
+		=>here 'a' is called REAL part and
+		             'b' is called IMAGINARY part
+		=> here 'j' represents  sqrt(-1)
+=>Internally the REAL and IMAGINARY part treated as float type
+
+=>To extract the real and imaginary parts from complex object, we use two pre-defined attributes. They are
+		a) real
+		b) imag
+=>Syntax:     complexobj.real===>Gives real part of complex object
+		     complexobj.imag===>Gives imaginary part of complex object
+
+Examples:
+----------------
+>>> a=2+3j
+>>> print(a, type(a))----------(2+3j) <class 'complex'>
+>>> b=2-4j
+>>> print(b, type(b))-----------(2-4j) <class 'complex'>
+>>> c=2.3+4.5j
+>>> print(c, type(c))-----------(2.3+4.5j) <class 'complex'>
+>>> d=2.4-6.7j
+>>> print(d, type(d))------------(2.4-6.7j) <class 'complex'>
+>>> e=2+3.5j
+>>> print(e, type(e))-------------(2+3.5j) <class 'complex'>
+>>> f=10j
+>>> print(f, type(f))-----------10j <class 'complex'>
+>>> k=10+0j
+>>> print(k, type(k))----------(10+0j) <class 'complex'>
+>>> k=0-2j
+>>> print(k, type(k))--------------2j <class 'complex'>
+
+>>> a=2+3j
+>>> print(a.real)------------2.0
+>>> print(a.imag)---------3.0
+>>> b=2.3-4j
+>>> print(b.real)---------2.3
+>>> print(b.imag)---------4.0
+>>> a=-5.5j
+>>> print(a,type(a))---------(-0-5.5j) <class 'complex'>
+>>> print(a.real)--------     -0.0
+>>> print(a.imag)-------     -5.5
+>>> a=0+0j
+>>> print(a,type(a))--------   0j <class 'complex'>
+>>> print(a.real)--------- 0.0
+>>> print(a.imag)------0.0
+==================================X============================
+================================================
+			Type Casting Techniques	
+	================================================
+=>The purpose of Type Casting concept is that to convert one type Possible value into another type of value.
+=>In python we have 5 type casting Techniques	. They are
+		1) int()
+		2) float()
+		3) bool()
+		4) complex()
+		5) str()
+
+					1) int()
+			================================
+=>int() is used for convetring Possible Type of Values into int type value.
+------------------
+=>Syntax:-
+------------------
+		      varname=int( float / bool / complex / str )
+
+Examples: (float values-->int-->Possible)
+------------------------------------------------------------
+>>>a=10.23
+>>>print(a, type(a))---------10.23    <class,'float'>
+>>>b=int(a)
+>>>print(b, type(b))-------- 10     <class, 'int'>
+>>> a=0.345
+>>> print(a, type(a))------------0.345 <class 'float'>
+>>> b=int(a)
+>>> print(b, type(b))--------0 <class 'int'>
+-------------------------------------------------------------------
+Examples: (bool values-->int-->Possible )
+------------------------------------------------------------
+>>> a=True
+>>> print(a, type(a))-----------------True <class 'bool'>
+>>> b=int(a)
+>>> print(b, type(b))---------1 <class 'int'>
+>>> a=False
+>>> print(a, type(a))-----------False <class 'bool'>
+>>> b=int(a)
+>>> print(b, type(b))----------0 <class 'int'>
+--------------------------------------------------------------------------------
+Examples: ( complex values-->int-->Not Possible       )
+--------------------------------------------------------------------------------
+>>> a=2+3j
+>>> print(a, type(a))-----------(2+3j) <class 'complex'>
+>>> b=int(a)-----------TypeError: can't convert complex to int
+>>> b=int(a.real)
+>>> print(b, type(b))-------2 <class 'int'>
+>>> b=int(a.imag)
+>>> print(b, type(b))------3 <class 'int'>      
+---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Examples: ( Str int value can be converted into int value)
+--------------------------------------------------------------------------------
+>>> a="12"  
+>>> print(a, type(a))-----------12 <class 'str'>
+>>> a=a+3----------TypeError: can only concatenate str (not "int") to str
+>>> b=int(a)
+>>> print(b, type(b))----   12   <class,'int'>
+------------------------------------------------------------------------------------------
+Examples: ( Str float value can't be converted into int type     )
+------------------------------------------------------------------------------------------
+>>> a="12.34"
+>>> print(a, type(a))-------12.34 <class 'str'>
+>>> b=int(a)---------ValueError: invalid literal for int() with base 10: '12.34'
+------------------------------------------------------------------------------------------
+Examples: ( Str bool value can't be converted into int type )
+------------------------------------------------------------------------------------------
+>>> a="True"
+>>> print(a, type(a))-------True <class 'str'>
+>>> b=int(a)-------ValueError: invalid literal for int() with base 10: 'True'
+>>> a="False"
+>>> print(a, type(a))--------False <class 'str'>
+>>> b=int(a)-----ValueError: invalid literal for int() with base 10: 'False'
+-----------------------------------------------------------------------------------------
+Examples: ( Str complex value can't be converted into int type )
+------------------------------------------------------------------------------------------
+>>> a="2+3j"
+>>> print(a, type(a))----------2+3j <class 'str'>
+>>> b=int(a)---------ValueError: invalid literal for int() with base 10: '2+3j'
+----------------------------------------------------------------------------------------
+Examples: ( Pure Str  value can't be converted into int type )
+------------------------------------------------------------------------------------------
+>>> a="PYTHON"
+>>> print(a, type(a))-----------PYTHON <class 'str'>
+>>> b=int(a)----------ValueError: invalid literal for int() with base 10: 'PYTHON'
+>>> a="@abc"
+>>> print(a, type(a))-------@abc <class 'str'>
+>>> b=int(a)---------ValueError: invalid literal for int() with base 10: '@abc'
+>>> a="34x"
+>>> print(a, type(a))--------34x <class 'str'>
+>>> b=int(a)---------ValueError: invalid literal for int() with base 10: '34x'
+
+
+-------------
+2) float()
+-------------
+=>This function is used for converting One possible type of value into float type value.
+=>Syntax:-     varname= float( int / bool / complex / str)
+----------------------------------------------------------------------------------
+Examples:
+---------------
+>>> a=12
+>>> print(a, type(a))----------12 <class 'int'>
+>>> b=float(a)
+>>> print(b, type(b))-----------12.0 <class 'float'>
+>>> a=True
+>>> print(a, type(a))
+True <class 'bool'>
+>>> b=float(a)
+>>> print(b, type(b))
+1.0 <class 'float'>
+>>> a=2+3j
+>>> print(a, type(a))
+(2+3j) <class 'complex'>
+>>> b=float(a)---------TypeError: can't convert complex to float
+>>> fv1=float(a.real)
+>>> fv2=float(a.imag)
+>>> print(fv1, type(fv1), fv2, type(fv2))----2.0 <class 'float'> 3.0 <class 'float'>
+--------------------------------------------------------------------------------------------------------------
+Examples:- (Str value into float)
+-----------------
+>>> a="123"
+>>> print(a, type(a))
+123 <class 'str'>
+>>> b=float(a)
+>>> print(b, type(b))
+123.0 <class 'float'>
+>>> a="True"
+>>> print(a, type(a))
+True <class 'str'>
+>>> b=float(a)------------ValueError: could not convert string to float: 'True'
+>>> a="2+3j"
+>>> print(a, type(a))
+2+3j <class 'str'>
+>>> b=float(a)------------ValueError: could not convert string to float: '2+3j'
+>>> a="python"
+>>> print(a, type(a))
+python <class 'str'>
+>>> b=float(a)------------ValueError: could not convert string to float: 'python'
+-----------------------------------------------------------------------------------------------------------
+
+==================================
+	3) bool()
+==================================
+=>This function is used for converting One possible type of value into bool type value.
+=>Syntax:-     varname= bool( int / float / complex / str)
+
+=>All NON-ZERO VALUES are TRUE 
+=>All ZERO VALUES are FALSE 
+
+Examples:
+----------------
+>>> a=123
+>>> print(a, type(a))
+123 <class 'int'>
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=-124
+>>> print(a, type(a))
+-124 <class 'int'>
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=0
+>>> print(a, type(a))
+0 <class 'int'>
+>>> b=bool(a)
+>>> print(b, type(b))
+False <class 'bool'>
+>>> a=0b1111
+>>> print(a, type(a))
+15 <class 'int'>
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=1.2
+>>> print(a, type(a))
+1.2 <class 'float'>
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=0.0000000000000000000000000000000000000000000001
+>>> print(a, type(a))
+1e-46 <class 'float'>
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=0.000000000000000000000000000
+>>> print(a, type(a))
+0.0 <class 'float'>
+>>> b=bool(a)
+>>> print(b, type(b))
+False <class 'bool'>
+>>> a=2+3.5j
+>>> print(a, type(a))
+(2+3.5j) <class 'complex'>
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=0+0j
+>>> print(a, type(a))
+0j <class 'complex'>
+>>> b=bool(a)
+>>> print(b, type(b))
+False <class 'bool'>
+>>> a="kvr"
+>>> print(a, type(a))
+kvr <class 'str'>
+>>> len(a)
+3
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=" "
+>>> print(a, type(a))
+  <class 'str'>
+>>> b=bool(a)
+>>> len(a)
+1
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a="0"
+>>> print(a, type(a))
+0 <class 'str'>
+>>> len(a)
+1
+>>> b=bool(a)
+>>> print(b, type(b))
+True <class 'bool'>
+>>> a=""
+>>> print(a, type(a))
+ <class 'str'>
+>>> len(a)
+0
+>>> b=bool(a)
+>>> print(b, type(b))
+False <class 'bool'>
+>>>
+
+========================================
+4) complex()
+========================================
+=>This function is used for converting One possible type of value into complex type value.
+=>Syntax:-     varname=complex( float / bool / int / str)
+--------------------------------------------------------------------------
+Examples:
+-------------------
+>>> a=10
+>>> print(a, type(a))
+10 <class 'int'>
+>>> b=complex(a)
+>>> print(b, type(b))
+(10+0j) <class 'complex'>
+>>> a=12.3
+>>> print(a, type(a))
+12.3 <class 'float'>
+>>> b=complex(a)
+>>> print(b, type(b))
+(12.3+0j) <class 'complex'>
+>>> a=True
+>>> print(a, type(a))
+True <class 'bool'>
+>>> b=complex(a)
+>>> print(b, type(b))
+(1+0j) <class 'complex'>
+>>> a=False
+>>> print(a, type(a))
+False <class 'bool'>
+>>> b=complex(a)
+>>> print(b, type(b))
+0j <class 'complex'>
+>>> a="10"
+>>> print(a, type(a))
+10 <class 'str'>
+>>> b=complex(a)
+>>> print(b, type(b))
+(10+0j) <class 'complex'>
+>>> a="10.5"
+>>> print(a, type(a))
+10.5 <class 'str'>
+>>> b=complex(a)
+>>> print(b, type(b))
+(10.5+0j) <class 'complex'>
+>>> a="True"
+>>> print(a, type(a))
+True <class 'str'>
+>>> b=complex(a)--------------ValueError: complex() arg is a malformed string
+>>> a="hyd"
+>>> print(a, type(a))
+hyd <class 'str'>
+>>> b=complex(a)--------ValueError: complex() arg is a malformed string
+>>> a="2+3j"
+>>> print(a, type(a))
+2+3j <class 'str'>
+>>> b=complex(a)
+>>> print(b, type(b))
+(2+3j) <class 'complex'>
+
+=======================================
+5) str()
+=======================================
+=>=>This function is used for converting all types of values into str type
+=>Syntax:-     varname= str( int / float / bool / complex )
+-----------------------------------
+Examples:
+------------------
+>>> a=12
+>>> print(a, type(a))
+12 <class 'int'>
+>>> b=str(a)
+>>> print(b, type(b))
+12 <class 'str'>
+>>> b
+'12'
+>>> a=12.34
+>>> print(a, type(a))
+12.34 <class 'float'>
+>>> b=str(a)
+>>> print(b, type(b))
+12.34 <class 'str'>
+>>> b
+'12.34'
+>>> a=True
+>>> print(a, type(a))
+True <class 'bool'>
+>>> b=str(a)
+>>> print(b, type(b))
+True <class 'str'>
+>>> b
+'True'
+>>> a=2+5.6j
+>>> print(a, type(a))
+(2+5.6j) <class 'complex'>
+>>> b=str(a)
+>>> print(b, type(b))
+(2+5.6j) <class 'str'>
+>>> b
+'(2+5.6j)'
+>>>
+
+
+==================================
+II) Sequential Data Types
+==================================
+=>The purpose of  Sequential Data Types is that "To store Sequence of Values".
+=>WE have 4  types of  Sequential Data Types. They are
+		a) str
+		b) bytes
+		c) bytearray
+		d) range
+--------------------------------------------
+
+===================================
+a) str 
+===================================
+Index:
+----------
+=>What is purpose of 'str'
+=>Organization of 'str' data
+		a) Single Line Str data--------------- "  "         '   '
+		b) Multi Line str data---------------"""  """      '''   '''
+=>Operations on str data
+	a) Indexing 
+	          i) Possitive Index
+		  ii) Negative Index
+	b) Slicing Operations 
+=================================X=============================
+Properties of str:
+------------------------
+=>'str' is one of the pre-defined class and treated as Sequential Data type.
+=>The purpose of 'str'  data type is that "To store String data "
+=>We can store string data in two types. They are
+	a) Single Line String data
+	b) Multi Line String data
+
+a) Single Line String data:
+--------------------------------------
+=>To organize Single Line String data, we use either double or single Quotes.
+
+Syntax-1:
+------------
+			" Single Line String Data "
+
+Syntax-2:
+------------
+			' Single Line String Data '
+
+=>With double or single Quotes, we can't organize Multi Line String data.
+
+b) Multi Line String data:
+-------------------------------------
+=>To organize Multi Line String data, we use either Tripple double or Tripple single Quotes.
+
+Syntax-1:
+------------
+			" " "
+				String data1
+				String Data 2
+				------------------
+				String data-n " " "
+
+Syntax-2:
+------------
+		      ' ' '	String data1
+				String Data 2
+				------------------
+				String data-n  ' ' '
+			
+=>With the help of Tripple double or Tripple single Quotes all types String / charcater  data organizations.
+
+Examples:
+----------------
+>>> s1="Guido Van Rossum"
+>>> print(s1, type(s1))----------------Guido Van Rossum <class 'str'>
+>>> s2='James Gosling'
+>>> print(s2, type(s2))-----------James Gosling <class 'str'>
+>>> s3="P"
+>>> print(s3, type(s3))-------------P <class 'str'>
+>>> s4='J'
+>>> print(s4, type(s4))----------J <class 'str'>
+>>> s5="1234%$abc#123"
+>>> print(s5, type(s5))--------------1234%$abc#123 <class 'str'>
+>>> s6="Rossum-------------- attempting to write multiples lines of String
+					SyntaxError: EOL while scanning string literal
+>>> s6='Rossum---------------
+				SyntaxError: EOL while scanning string literal
+
+>>> s7="""Rossum
+... HNO:2-3-4, River Side
+... Sea Port, CWI Institute
+... Nether lands"""
+>>> print(s7,type(s7))--------
+					Rossum
+					HNO:2-3-4, River Side
+					Sea Port, CWI Institute
+					Nether lands <class 'str'>
+>>> s8='''James Gosling
+... FNo:5-6, Fort Side
+... Sun Micro System
+... USA '''
+>>> print(s8,type(s8))-------------
+					James Gosling
+					FNo:5-6, Fort Side
+					Sun Micro System
+					USA  <class 'str'>
+>>> k="""P"""
+>>> print(k,type(k))---------P <class 'str'>
+=======================================
+Operations on str data
+=======================================
+=>On the data of Str, we can perform two types of operations. They are
+
+		a) Indexing
+		b) Slicing 
+a) Indexing:
+-----------------
+=>The process of obtaing a charcater from given str object by passing valid Index.
+
+=>Syntax:-    strobj [ index ]     
+
+=>here Index can be either +ve or -ve index
+=>If the Index is valid then we get Result
+=>If the Index is invalid then we get "IndexError "
+------------------
+Examples:
+------------------
+>>> s="PYTHON"
+>>> print(s, type(s))----------------PYTHON <class 'str'>
+>>> len(s)-----------------------------6
+>>> print(s[-1])------------------N
+>>> print(s[0])------------------P
+>>> print(s[-6])------------------P
+>>> print(s[-3])--------------------H
+>>> print(s[3])--------------------H
+>>> print(s[30])--------------IndexError: string index out of range
+>>> print(s[-10])---------------IndexError: string index out of range
+------------------------------------------------------------------------------------------------------------
+b) Slicing :
+---------------------------
+=>The process of obtaining range of characters / sub string from Given Str object  is called String Slicing.
+Syntax1:
+------------
+			strobj[begin:end]
+=>This syntax given range of characters from Begin Index to End-1 Index provided		begin<end otherwise we never get any result.
+
+Examples:
+----------------
+>>> s="PYTHON"
+>>> print(s[2:5])-----------THO
+>>> print(s[1:5])----------YTHO
+>>> print(s[3:6])-----------HON
+>>> print(s[0:4])-----------PYTH
+Examples:
+----------------
+>>> s="PYTHON"
+>>> print(s[-4:-1])
+THO
+>>> print(s[-6:-2])
+PYTH
+>>> print(s[-3:-1])
+HO
+----------------------------------------------------------
+Syntax2:            strobj[begin :  ]
+--------------  In this Syntax, we didi't specify end index then PVM takes len(strobj)-1 as end index value.
+	
+---------------------------------------------------------
+Examples:
+---------------
+>>> s="PYTHON"
+>>> print(s[1:])
+YTHON
+>>> print(s[3:])
+HON
+----------------------------------------------------------------------------------
+Syntax3:            strobj[ : end ]
+--------------  In this Syntax, we didi't specify begin index then PVM takes Intial Index			as Begin Index in the case Both Possitive Index (0) and negative Index			as  -len(strobj) .
+
+Examples:
+---------------
+>>> print(s[:-3])----------PYT
+>>> print(s[:-4])----------PY
+>>> print(s[:-1])---------PYTHO
+>>> print(s[:0])---------  empty     we never get any result 
+--------------------------------------------------------------------------------------------------------------------
+Syntax4:
+---------------    strobj(begin:end:step)
+
+Rules:
+-------------
+1) Here 'begin', 'end' and 'step' values can be +Ve and -Ve Index
+2) If the value of 'step' is Possitive then we must consider the elements from begin	     to end-1 in forward direction provided begin<end
+3) If the value of 'step' is Negative then we must consider the elements from begin	     to end+1 in backward direction provided begin>end
+4) If we are retrieving the elements in forward direction and if  the end value is zero then we empty result
+5) If we are retrieving the elements in backward direction and if the the end value  -1 then result is empty.
+     
+
+----------------
+Examples:
+------------------
+>>> s="PYTHON"
+>>> print(s,type(s))--------------PYTHON <class 'str'>
+>>> print(s[0])---------------P
+>>> print(s[-1])------------N
+>>> print(s[0:3])----------PYT
+>>> print(s[-6:-3])-------------PYT
+>>> s="PYTHON"
+>>> s[0:6:2]
+'PTO'
+>>> s[0:6:3]
+'PH'
+>>> s[-6:-1:2]
+'PTO'
+>>> s[-5:-2]
+'YTH'
+>>> s[:-2]
+'PYTH'
+>>> s[0:4:-1]
+''
+>>> s[4:0:-1]
+'OHTY'
+>>> s[5:2:-1]
+'NOH'
+>>> s[-2:-5:-1]
+'OHT'
+>>> s[-2:-5]
+''
+>>> s[-5:-2]
+'YTH'
+>>> s[-2:-5:-1]
+'OHT'
+>>> s[-1:-5:-2]
+'NH'
+>>> s[1:6:2]
+'YHN'
+>>> s[1:6:-2]
+''
+>>> s[5:1:-2]
+'NH'
+>>> s[:6:2]
+'PTO'
+>>> s[-6:-1:3]
+'PH'
+>>> s[:-1:3]
+'PH'
+>>> s[::3]
+'PH'
+>>> s[::-1]
+'NOHTYP'
+>>> s[2:0]
+''
+>>> print(s[2:0])
+
+>>> print(s[-6:-1:-1])
+
+>>> print(s[:])
+PYTHON
+>>> print(s)
+PYTHON
+>>> print(s[::-1])
+NOHTYP
+>>> s="python programming"
+>>> s[::-1]
+'gnimmargorp nohtyp'
+>>> s="Madam"
+>>> s1=s[::-1]
+>>> s1=s
+>>> s="Madam"
+>>> s1=s[::-1]
+>>> s1=s
+>>> s="Madam"
+>>> s1=s[::-1]
+>>> s1==s
+False
+>>> s="madam"
+>>> s1=s[::-1]
+>>> s1==s
+True
+>>> s1="LIRIL"
+>>> s1==s1[::-1]
+True
+>>>
+==========================================
+bytes
+==========================================
+=>'bytes' is one of the pre-defefined class nad treated as sequence data type.
+=>This data type is used for storing Sequence of Numerical Integer Values Ranges     0 to 256 
+=>An object of bytes data type belongs to immutable
+=>To represent the elements of bytes data type, we don't have any symbolic Notation but we can convert other type of elements into bytes type by using           bytes()
+=>on the object of bytes, we can perform Indexing and slicing     
+=>An object of bytes preserves Insertion Order.
+------------------
+Examples:
+------------------
+>>> l1=[10,20,30,0,256]
+>>> print(l1, type(l1))-----------[10, 20, 30, 0, 256] <class 'list'>
+>>> b=bytes(l1)---------ValueError: bytes must be in range(0, 256)
+>>> l1=[10,20,-30,0,255]
+>>> print(l1, type(l1))---------[10, 20, -30, 0, 255] <class 'list'>
+>>> b=bytes(l1)---------ValueError: bytes must be in range(0, 256)
+>>> l1=[10,20,30,0,255]
+>>> print(l1, type(l1))------------[10, 20, 30, 0, 255] <class 'list'>
+>>> b=bytes(l1)
+>>> print(b, type(b) )-------b'\n\x14\x1e\x00\xff' <class 'bytes'>
+>>> for v in b:
+...     print(v)
+				...
+				10
+				20
+				30
+				0
+				255
+
+>>> for x in b:
+... print(x)----------------IndentationError: expected an indented block
+>>> for x in b:
+...          print(x)
+...
+			10
+			20
+			30
+			0
+			255
+>>> print(b[0])
+10
+>>> print(b[1])
+20
+>>> print(b[3])
+0
+>>> print(b[4])
+255
+>>> print(b[40])------------------IndexError: index out of range
+>>> print(b[0:4])------b'\n\x14\x1e\x00'
+>>> for x in b[0:4]:
+...	 print(x)
+...
+				10
+				20
+				30
+				0
+>>> b[0]=123--------TypeError: 'bytes' object does not support item assignment
+==============================X=================================  
+=================================
+bytearray
+=================================
+=>'bytearray' is one of the pre-defefined class nad treated as sequence data type.
+=>This data type is used for storing Sequence of Numerical Integer Values Ranges     0 to 256 
+=>An object of bytearray data type belongs to mutable
+=>To represent the elements of bytearray data type, we don't have any symbolic	     Notation but we can convert other type of elements into bytearray type by using       bytesarray()
+=>on the object of bytearray, we can perform Indexing and slicing     
+=>An object of bytearray preserves Insertion Order.
+
+Note:-  The Functionality of bytearray data type is exactly similar to bytes  but an --------   object of bytearray belongs to mutable and an object of bytes belongs to		   immutable
+---------------------------------------------------------------------------------------------------------
+Examples:
+-------------------
+>>> t=(10,20,30,0,"Rossum")
+>>> print(t, type(t))
+(10, 20, 30, 0, 'Rossum') <class 'tuple'>
+>>> ba=bytearray(t)------TypeError: 'str' object cannot be interpreted as an integer
+>>> t=(10,20,30,0,True)
+>>> ba=bytearray(t)
+>>> print(ba, type(ba))----bytearray(b'\n\x14\x1e\x00\x01') <class 'bytearray'>
+>>> for x in ba:
+	...     print(x)
+				...
+				10
+				20
+				30
+				0
+				1
+>>> print(id(ba))------------2324571438384
+>>> ba[1]=123   #updation---mutability
+>>> for x in ba:
+	...     print(x)
+				...
+				10
+				123
+				30
+				0
+				1
+>>> print(id(ba))-----------------2324571438384
+>>> print(ba[2])-----------30
+>>> print(ba[0:4])----------bytearray(b'\n{\x1e\x00')
+>>> for v in ba[0:4]:
+...     print(v)
+				...
+				10
+				123
+				30
+				0
+>>> print(ba[12])----------IndexError: bytearray index out of range
+
+===========================================
+range
+===========================================
+=>'range' is one of the pre-defined class and treated as sequence data type
+=>The purpose of this data type is that "To store Numerical Integer values with             equal Interval of values"
+=>An object of range belongs to immutable bcoz range' object does not support        item assignment
+=>on the object of range we can perform both Indexing and slicing 
+=>Range object maintains insertion order 
+=>
+--------------------------------------------------------------------------------------------------------------
+Syntax1:--    varname=range(Value)
+------------------------------------------------------------------------
+=>This syntax generates range of values from 0 to Value-1
+
+----------------
+Examples:
+----------------
+>>> r=range(11)
+>>> print(r, type(r))----------range(0, 11) <class 'range'>
+>>> for v in r:
+...     print(v)
+...
+			0
+			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+			10
+>>> r1=range(6)
+>>> print(r1, type(r1))-----------range(0, 6) <class 'range'>
+>>> for v in r1:
+...     print(v)
+				...
+				0
+				1
+				2
+				3
+				4
+				5
+>>> for v in range(21):
+...     print(v)
+			...
+			0
+			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+			10
+			11
+			12
+			13
+			14
+			15
+			16
+			17
+			18
+			19
+			20
+---------------------------------------------------------------------------------------
+Syntax2::-     varname=range(begin,end)
+=>This Syntax generates range of values from begin to end-1
+
+Examples: generate  10 to 20
+>>> r=range(10,21)
+>>> print(r,type(r))----------range(10, 21) <class 'range'>
+>>> for v in r:
+...     print(v)
+	...
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+>>> for v in range(500,511):
+...     print(v)
+...
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+---------------------------------------------------------------------------------------------------------------
+Syntax3::	     varname=range(begin,end,step)
+=>=>This Syntax generates range of values from begin to end-1 with equal interval value of step.
+Examples:
+----------------
+>>> r=range(2, 21, 2)
+>>> print(r,type(r))--------------range(2, 21, 2) <class 'range'>
+>>> for v in r:
+...     print(v)
+			...
+			2
+			4
+			6
+			8
+			10
+			12
+			14
+			16
+			18
+			20
+Q1) Generate 1000 1010 1020 1040  1050 
+
+>>> for v in range(1000,1051,10):
+...     print(v)
+...
+1000
+1010
+1020
+1030
+1040
+1050
+Q2) Generate    10  to  1 
+>>> for v in range(10,0,-1):
+...     print(v)
+...
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Q3)  generate 1 3 5 7 9
+>>> for k in range(1,10,2):
+...     print(k)
+...
+1
+3
+5
+7
+9
+Q4) generate 50  40  30   20   10   
+>>> for v in range(50,9,-10):
+...     print(v)
+...
+50
+40
+30
+20
+10
+Q5) =>-1 -2 -3 -4 -5 -6 -7 -8 -9 -10----range(-1,-11,-1)
+>>> for v in range(-1,-11,-1):
+...     print(v)
+...
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+-8
+-9
+-10
+Q6) =>-10  -8   -6   -4   -2 --------range(-10 ,-1,2)
+>>> for v in range(-10,-1,2):
+...     print(v)
+...
+-10
+-8
+-6
+-4
+-2
+Q7) =>-5  -4  -3  -2   -1    0     1    2    3   4   5-----> range(-5,6,1)
+>>> for v in range(-5,6,1):
+...     print(v)
+...
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+------------------------------------------------------------------------------------------------------------
+Special Cases
+---------------------
+>>> print(range(1000,1015)[2:4])
+range(1002, 1004)
+>>>print((range(10,21)[-11:-8])----->range(10,13)----elements displayed 10  11 12
+>>> print(range(10,21)[::-1])
+range(20, 9, -1)
+>>> for v in range(10,21)[::-1]:
+...     print(v)
+...
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+---------------------------------------------------------X---------------------------------------------
+============================================
+  III) List Data Types (Collection data types )
+============================================
+=>The purpose of list data types is that " To Store Multiple Values either of same type or different type or both types with Unique and Duplicate Values"
+=>List Data Types are classified into 2 types. They are
+		a) list (mutable)
+		b) tuple (immutable)
+=======================================
+a) list
+=======================================
+Index:
+----------
+=>Purpose of list
+=>Operations of list
+		a) Index
+		b) slicing
+=>Pre-defined functions in list
+		a) append()
+		b) insert()
+		c) clear()
+		d) remove()
+		e) pop(index)
+		f) pop()
+		g) count()
+		h) index()
+		i) reverse()
+		j) copy()
+		            i) shallow Copy
+			    ii) Deep Copy
+		k) sort()
+		l) extend() w.r.t  +
+=>inner / nested list
+=>Pre-defined functions in inner-list
+==================================================================
+Properties of list:
+---------------------------
+=>'list' is one of the pre-defined class and treated as List (or) Collections data type.
+=>The purpose of list data type is that to store "To Store Multiple Values either of same type or different type or both types with Unique and Duplicate Values"
+=>The elements of list must be written in Square Brackets [ ] and elements separated by comma.
+
+Syntax:-   listobj=[ list of values / elements seprated by comma}
+=>list object maintains insertion order
+=>list object belongs to mutable
+=>on the list , we can both indexing and slicing operations.
+============================================================
+Examples:
+------------------
+>>> l1=[10,20,258,1000,-23,10,20]
+>>> print(l1, type(l1))
+[10, 20, 258, 1000, -23, 10, 20] <class 'list'>
+>>> l2=[10,"Rossum",45.67,"NLU","23-3-1947",True,2+3j]
+>>> print(l2, type(l2))
+[10, 'Rossum', 45.67, 'NLU', '23-3-1947', True, (2+3j)] <class 'list'>
+>>> print(id(l1))
+2082375890368
+>>> l1[2]=128
+>>> print(l1, id(l1))
+[10, 20, 128, 1000, -23, 10, 20] 2082375890368
+>>> len(l1)
+7
+>>> l1.clear()
+>>> len(l1)
+0
+>>> print(l1, id(l1))
+[] 2082375890368
+>>> l2=[10,"Rossum",45.67,"NLU","23-3-1947"]
+>>> print(l2)
+[10, 'Rossum', 45.67, 'NLU', '23-3-1947']
+>>> print(l2[1])
+Rossum
+>>> print(l2[3])
+NLU
+>>> print(l2[4])
+23-3-1947
+>>> print(l2[2:4])
+[45.67, 'NLU']
+>>> print(l2[:4])
+[10, 'Rossum', 45.67, 'NLU']
+>>> print(l2[1:])
+['Rossum', 45.67, 'NLU', '23-3-1947']
+>>> print(l2[:])
+[10, 'Rossum', 45.67, 'NLU', '23-3-1947']
+>>> print(l2[::2])
+[10, 45.67, '23-3-1947']
+>>> print(l2[::-1])
+['23-3-1947', 'NLU', 45.67, 'Rossum', 10]
+====================================================
+======================================
+		Types of list objects
+	======================================
+=>In python, we have two types of list .They are
+	a) Empty List
+	b) Non-Empty List
+a) Empty List:
+-----------------------
+=>An Empty list is one, which does not contain any elements and whose length is 0
+=>Syntax1:-       listobj=[ ]
+
+=>Syntax2:-      listobj=list()
+
+b) Non-Empty List:
+----------------------------
+=>An Non-Empty list is one, which contains  elements and whose length is >0
+Syntax:-   listobj=[list of elements seprated by comma]
+
+Examples:
+-----------------
+>>> l1=[]
+>>> print(l1,type(l1))-------------[] <class 'list'>
+>>> len(l1)--------0
+>>> l1=list()
+>>> print(l1,type(l1))--------------[] <class 'list'>
+>>> len(l1)---------------0
+>>> l1=[10,20,40,-23,56,890]
+>>> print(l1,type(l1))-----[10, 20, 40, -23, 56, 890] <class 'list'>
+>>> len(l1)-----------6
+>>> l1=[10,"Rossum",45.67,True]
+>>> print(l1,type(l1))------------[10, 'Rossum', 45.67, True] <class 'list'>
+>>> len(l1)------4
+=============================X============================
+
+======================================
+Types of list objects
+======================================
+=>In python, we have two types of list .They are
+	a) Empty List
+	b) Non-Empty List
+a) Empty List:
+-----------------------
+=>An Empty list is one, which does not contain any elements and whose length is 0
+=>Syntax1:-       listobj=[ ]
+
+=>Syntax2:-      listobj=list()
+
+b) Non-Empty List:
+----------------------------
+=>An Non-Empty list is one, which contains  elements and whose length is >0
+Syntax:-   listobj=[list of elements seprated by comma]
+
+Examples:
+-----------------
+>>> l1=[]
+>>> print(l1,type(l1))-------------[] <class 'list'>
+>>> len(l1)--------0
+>>> l1=list()
+>>> print(l1,type(l1))--------------[] <class 'list'>
+>>> len(l1)---------------0
+>>> l1=[10,20,40,-23,56,890]
+>>> print(l1,type(l1))-----[10, 20, 40, -23, 56, 890] <class 'list'>
+>>> len(l1)-----------6
+>>> l1=[10,"Rossum",45.67,True]
+>>> print(l1,type(l1))------------[10, 'Rossum', 45.67, True] <class 'list'>
+>>> len(l1)------4
+=============================X============================
+=============================================
+Types of Copy Process Mechanisam
+=============================================
+=>We have two Types Copy Process Mechanisam. They are
+		a) Shallow Copy
+		b) Deep Copy
+a)  Shallow Copy:
+--------------------------
+	=>Initial Content of Both the Objects are Same
+	=>Both the Memory Address of Both the objects are Different.
+	=>Both the objects modifications are Independent. ( If we do the modification on one object then they are not reflected into another object  bcoz both the objects are pointing Different  memory address ))
+=>To implement shallow Copy in python we use   copy()
+
+	Syntax:-     obj2=obj1.copy()
+Example:
+--------------------
+>>> l1=[10, 'Rossum', 'PYTHON', 45.67, 10]
+>>> print(l1,id(l1))
+[10, 'Rossum', 'PYTHON', 45.67, 10] 2036852108096
+>>> l2=l1.copy()
+>>> print(l2,id(l2))
+[10, 'Rossum', 'PYTHON', 45.67, 10] 2036852108608
+>>> l1.append("Java")
+>>> print(l1,id(l1))
+[10, 'Rossum', 'PYTHON', 45.67, 10, 'Java'] 2036852108096
+>>> print(l2,id(l2))
+[10, 'Rossum', 'PYTHON', 45.67, 10] 2036852108608
+>>> l2.insert(3,"DS")
+>>> print(l2,id(l2))
+[10, 'Rossum', 'PYTHON', 'DS', 45.67, 10] 2036852108608
+>>> print(l1,id(l1))
+[10, 'Rossum', 'PYTHON', 45.67, 10, 'Java'] 2036852108096
+-----------------------------------------------------------------------------------------------------------------
+b)  Deep Copy:
+--------------------------
+	=>Initial Content of Both the Objects are Same
+	=>Both the Memory Address of Both the objects are Same.
+	=>Both the objects modifications are Dependent. ( If we do the modification on one object then they are  reflected into another object bcoz both the objects are pointing same memory address )
+=>To implement Deep Copy in python we use   Assignment Operator (Single equal to  =  ).
+
+	Syntax:-     obj2=obj1
+
+-------------------
+Examples:
+------------------
+>>> l1=[10, 'Rossum']
+>>> print(l1,id(l1))
+[10, 'Rossum'] 2036852108096
+>>> l2=l1  # deep copy
+>>> print(l2,id(l2))
+[10, 'Rossum'] 2036852108096
+>>> l1.append("PYTHON")
+>>> print(l1,id(l1))
+[10, 'Rossum', 'PYTHON'] 2036852108096
+>>> print(l2,id(l2))
+[10, 'Rossum', 'PYTHON'] 2036852108096
+>>> l2.insert(2,"AI")
+>>> print(l1,id(l1))
+[10, 'Rossum', 'AI', 'PYTHON'] 2036852108096
+>>> print(l2,id(l2))
+[10, 'Rossum', 'AI', 'PYTHON'] 2036852108096
+-------------------------------------------------------------------------------
+NOTE:- When we use Assignment Operator with Slicing(begin:end:step) then that copy of process not comes under deep copy 
+-------------------
+Examples:-   
+-------------------
+>>> l1=[10, 'Rossum']
+>>> l2=l1[::]
+>>> print(l1,id(l1))------------[10, 'Rossum'] 2036852108608
+>>> print(l2,id(l2))------------[10, 'Rossum'] 2036852406400
+>>> l3=l1[::-1]----------
+>>> print(l1,id(l1))---------[10, 'Rossum'] 2036852108608
+>>> print(l3,id(l3))-----------['Rossum', 10] 2036852108096
+>>> l1=[10, 'Rossum', 'PYTHON', 45.67, 10]
+>>> l3=l1[::2]
+>>> print(l1,id(l1))-----------[10, 'Rossum', 'PYTHON', 45.67, 10] 2036852406784
+>>> print(l3,id(l3))---------[10, 'PYTHON', 10] 2036852108608
+
+=================================================
+inner (Or) nested list
+================================================
+=>The process of defining one list in another is called Inner / mested list.
+=>Syntax:
+	listobj=[ val1,val2...[val11,val12...val1n], [val21,val22...val2n],....val-n]
+
+Here [val11,val12...val1n]  is one inner list
+	[val21,val22...val2n]  is another inner list
+=>On the inner list concept, we can perform Indexing and Slicing Operations.
+=>On the inner list concept , we can also apply all the methods of list.
+
+--------------------------------------------------------------------------------------------------------------
+Example:
+---------------
+=>I want to store Number,name, Internal Marks(3-subjects), extenal Marks(3-subjects) and college name
+
+	l1=[10,"Rossum", [18,19,16]  , [70,66,78], "OUCET"]
+       
+--------------------
+Examples:
+--------------------
+>>> l1=[10,"Rossum", [18,19,16]  , [70,66,78], "OUCET","HYD"]
+>>> print(l1)
+[10, 'Rossum', [18, 19, 16], [70, 66, 78], 'OUCET', 'HYD']
+>>> print(l1[2])
+[18, 19, 16]
+>>> print(l1[3])
+[70, 66, 78]
+>>> print(l1[-3])
+[70, 66, 78]
+>>> print(l1[-4])
+[18, 19, 16]
+>>> print(l1[2:4)
+>>> print(l1[2:4])
+[[18, 19, 16], [70, 66, 78]]
+>>> print(l1[2][-1])
+16
+>>> print(l1[2][::-1])
+[16, 19, 18]
+>>> print(l1[3][::2])
+[70, 78]
+>>> print(l1[2][-3:])
+[18, 19, 16]
+----------------------------------------------------------------
+>>> l1=[10,"Rossum", [18,19,16]  , [70,66,78], "OUCET","HYD"]
+>>> print(l1)
+[10, 'Rossum', [18, 19, 16], [70, 66, 78], 'OUCET', 'HYD']
+>>> l1[2].append(18)
+>>> print(l1)
+[10, 'Rossum', [18, 19, 16, 18], [70, 66, 78], 'OUCET', 'HYD']
+>>> l1[3].insert(-2,56)
+>>> print(l1)
+[10, 'Rossum', [18, 19, 16, 18], [70, 56, 66, 78], 'OUCET', 'HYD']
+>>> l1[2].sort(reverse=True)
+>>> print(l1)
+[10, 'Rossum', [19, 18, 18, 16], [70, 56, 66, 78], 'OUCET', 'HYD']
+>>> l1[-3].sort(reverse=False)
+>>> print(l1)
+[10, 'Rossum', [19, 18, 18, 16], [56, 66, 70, 78], 'OUCET', 'HYD']
+============================================================
+=============================================
+tuple
+=============================================
+Properties of tuple:
+---------------------------
+=>'tuple' is one of the pre-defined class and treated as List (or) Collections data type.
+=>The purpose oftuple data type is that to store "To Store Multiple Values either of same type or different type or both types with Unique and Duplicate Values"
+=>The elements of tuple must be written in braces ( ) and elements separated by comma.
+
+=>Syntax:-
+		tupleobj=( list of values / elements seprated by comma)
+=>tuple object maintains insertion order
+=>tuple object belongs to immutable
+=>on the tuple , we can both indexing and slicing operations.
+=>To convert one type value(s) into tuple type, we use tuple()
+=>We can create an empty tuple by using the following
+Syntax:-     tupleobj=()
+                     tupleobj=tuple()
+-------------------------------------------------------------------------------------------------------------------
+Note:- The functionality of tuple is exactly similar to list but an object of tuple belongs to immutable and an object list belongs to mutable.
+-------------------------------------------------------------------------------------------------------------------
+Examples:
+-----------------
+>>> t1=()
+>>> t2=tuple()
+>>> print(t1,t2, type(t1), type(t2))------------() () <class 'tuple'> <class 'tuple'>
+>>> t1=(10,20,30,12,-34)
+>>> t2=(10,"Ramu","Python",34.56,True)
+>>> print(t1,type(t1))------------(10, 20, 30, 12, -34) <class 'tuple'>
+>>> print(t2,type(t2))------(10, 'Ramu', 'Python', 34.56, True) <class 'tuple'>
+---------------------------------------------
+>>> x=10,"KVR","HYD","Java-Python",34.56
+>>> print(x,type(x))-----(10, 'KVR', 'HYD', 'Java-Python', 34.56) <class 'tuple'>
+-----------------------------------------------
+>>> t1=(10,23,-45,10,2,-4)
+>>> t1.sort()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'sort'
+>>> l1=list(t1)
+>>> print(l1,type(l1))
+[10, 23, -45, 10, 2, -4] <class 'list'>
+>>> l1.sort()
+>>> print(l1,type(l1))
+[-45, -4, 2, 10, 10, 23] <class 'list'>
+>>> t1=tuple(l1)
+>>> print(t1,type(t1))
+(-45, -4, 2, 10, 10, 23) <class 'tuple'>
+>>> print(t1[0])
+-45
+>>> print(t1[-1])
+23
+>>> print(t1[2:5])
+(2, 10, 10)
+>>> print(t1[2:5:-1])-----------()
+>>> print(t1[5:2:-1])---------(23, 10, 10)
+-------------------------------------------------------------------------------------------------
+Additional Functions in tuple
+---------------------------------------------
+1) count()     2)  index()
+
+Functions not available in tuple:
+--------------------------------------------------
+=>append(),clear(), insert(), remove(), pop(index), pop(), reverse(), sort(), extend(), copy().
+
+=>Note: tuple allows deep copy but not shallow copy.
+----------------------------------------------------X--------------------------------------------------------
+Special Case:
+----------------------------
+>>> a=10
+>>> t=tuple((a,))
+>>> print(t, type(t))
+(10,) <class 'tuple'>
+>>> t=tuple((10,))
+>>> print(t, type(t))
+(10,) <class 'tuple'>
+>>> t1=(a,)
+>>> print(t1, type(t1))
+(10,) <class 'tuple'>
+>>> t1=(100,)
+>>> print(t1, type(t1))
+(100,) <class 'tuple'>
+>>> x=10,
+>>> print(x, type(x))
+(10,) <class 'tuple'>
+=============================X==================================
+
+===============================================
+Set Data Types (Collection data types )
+===============================================
+=>The purpose of set data types is that " To Store Multiple Values either of same type or different type or both types with Unique  Values"
+=>Set Data Types are classified into 2 types. They are
+		a) set (mutable and immutable)
+		b) frozenset (immutable)
+-------------------------------------------------------------------------------------------------------
+======================================
+				set
+		======================================
+=>'set' is one of the pre-defined class and treated as set data type
+=>set data type is used  to Store Multiple Values either of same type or different type or both types with Unique  Values"
+=>The elements of set must written within curly braces { } and elements must separated by Comma.
+=>Syntax:    setobj={val1,val2.....val-n}   #  non-empty set
+=>To convert one type value into set type and to create an empty set, we use set().
+=>To create an empty set, we the following syntax:
+		setobj=set()
+=>An object set does not maintain insertion order bcoz PVM can display any possibility of set object elements.
+=>On the object of set, we can't perform both Indexing and slicing operations bcoz it can't maintain insertion order.
+=>An object of set belongs to both immutable (set object does not support Item assignment ) and mutable ( in the case add()  ).
+========================X========================================
+Examples:
+-----------------
+>>> s1={10,20,34,10,20,40}
+>>> print(s1,type(s1))
+{40, 10, 20, 34} <class 'set'>
+>>> s2={20,"Rushi",34.56,"OUCET"}
+>>> print(s2,type(s2))
+{'Rushi', 34.56, 20, 'OUCET'} <class 'set'>
+>>> s1[0]=100
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object does not support item assignment
+>>> print(s1,id(s1))
+{40, 10, 20, 34} 1443481483520
+>>> s1.add(12.34)
+>>> print(s1,id(s1))
+{34, 40, 10, 12.34, 20} 1443481483520
+>>> s3=set()
+>>> print(s3,type(s3),id(s3))
+set() <class 'set'> 1443481484192
+>>> s3.add(100)
+>>> s3.add("Sagar")
+>>> print(s3,type(s3),id(s3))
+{'Sagar', 100} <class 'set'> 1443481484192
+>>> print(s1[0])------------TypeError: 'set' object is not subscriptable
+>>> print(s1[0:3])---------TypeError: 'set' object is not subscriptable
+------------------------------------------------------------------------------------------------------------------
+
+===============================================
+			Additional Operations on set
+		===============================================
+=> we can perform additonal Operations by using the following functions.
+
+1) add():
+  -----------
+  =>this function is used adding an element to set object
+  =>Syntax:   setobj.add(element)
+>>> s1={10,"Python"}
+>>> print(s1,type(s1),id(s1))--------{10, 'Python'} <class 'set'> 1443481482400
+>>> s1.add("Rushi")
+>>> s1.add("sagar")
+>>> print(s1,type(s1),id(s1))----{'Rushi', 10, 'sagar', 'Python'} <class 'set'>										1443481482400
+----------------------------------------------------------------------------------------------------------------------
+2) clear():
+---------------
+=>This function is used for remving all the elements  set object
+=>Syntax:-    setobj.clear()
+
+Examples:
+-----------------
+>>> s1={'Rushi', 10, 'sagar', 'Python'}
+>>> print(s1,type(s1),id(s1))---{'Rushi', 10, 'sagar', 'Python'} <class 'set'>														1443481483520
+>>> len(s1)--------4
+>>> s1.clear()
+>>> print(s1,type(s1),id(s1))-------set() <class 'set'> 1443481483520
+>>> len(s1)----------0
+>>> s1={'Rushi', 10, 'sagar', 'Python'}
+>>> print(s1,type(s1),id(s1))
+{'Rushi', 10, 'sagar', 'Python'} <class 'set'> 1443481483744
+>>> del  s1[0]---------TypeError: 'set' object doesn't support item deletion
+>>> del s1
+>>> len(s1)---------NameError: name 's1' is not defined
+------------------------------------------------------------------------------------------------------------------
+3)remove()
+-----------------
+=>This function is used for removing the specified element from set object.
+=>if the the specified element does not exist set object then we get KeyError
+=>Syntax:-   setobj.remove(element)
+Examples:
+------------------
+>>> s1={'Rushi', 10, 'sagar', 'Python'}
+>>> print(s1,id(s1))----{'Rushi', 10, 'sagar', 'Python'} 1443481483744
+>>> s1.remove("Rushi")
+>>> print(s1,id(s1))----------{10, 'sagar', 'Python'} 1443481483744
+>>> s1.remove("Python")
+>>> print(s1,id(s1))------------{10, 'sagar'} 1443481483744
+>>> s1.remove(102)------------KeyError: 102
+>>> s1.remove("KVR")----KeyError: 'KVR'
+---------------------------------------------------------------------------------------------------------------------
+5) discard():
+------------------
+=>This function is used for removing the element from set object .
+=>If the element does not exist in set object it never removes and no error at			runtime.
+=>syntax:    setobj.discard(element)
+--------------------
+Examples:
+-------------------
+>>> s1={'Rushi', 10, 'sagar', 'Python'}
+>>> print(s1,id(s1))---{'Rushi', 10, 'sagar', 'Python'} 1443481485088
+>>> s1.discard("sagar")
+>>> print(s1,id(s1))-----------{'Rushi', 10, 'Python'} 1443481485088
+>>> s1.discard(10)
+>>> print(s1,id(s1))----------{'Rushi', 'Python'} 1443481485088
+>>> s1.discard(10)-------------here the val 10 not removed since 10 not present in							setobj and no error
+--------------------------------------------------------------------------------------------------------------------
+6) pop()
+------------
+=>This function is used for removing any arbitrary element from set object.
+=>when we call this function upon empty set object then we get KeyError
+=>Syntax:-  setobj.pop()
+
+Examples:
+--------------------
+>>> s2={10,20,30,40,50,60,"Python",34.56,3+5j}
+>>> s2.pop()--------34.56
+>>> print(s2)-------{40, 10, 50, (3+5j), 20, 'Python', 60, 30}
+>>> s2.pop()--------40
+>>> s2.pop()-------10
+>>> s2.pop()----------50
+>>> s2.pop()---------(3+5j)
+>>> s2.pop()--------20
+>>> s2.pop()--------'Python'
+>>> s2.pop()--------60
+>>> print(s2)-------{30}
+>>> s2.pop()---------30
+>>> print(s2)------------ set()   # empty set
+>>> s2.pop()--------------KeyError: 'pop from an empty set'
+------------------------------------------------------------------------------------------------------------
+7) copy():
+-----------------
+=>It is used to copy the content of one object into another object (implementation of shallow copy) 
+=>Syntax:-    setobj2=setobj1.copy()
+
+Examples:
+----------------
+>>> s3={10,-23,45,-34.56,"java","DS"}
+>>> print(s3,id(s3))
+{'DS', -23, 10, 45, -34.56, 'java'} 1443481483072
+>>> s4=s3.copy()
+>>> print(s4,id(s4))
+{'DS', -23, 10, 45, -34.56, 'java'} 1443481484192
+>>> s1.add("Python")
+>>> s3.add("Python")
+>>> s4.add("HYD")
+>>> print(s3,id(s3))
+{'DS', 'Python', -23, 10, 45, -34.56, 'java'} 1443481483072
+>>> print(s4,id(s4))
+{'DS', 'HYD', -23, 10, 45, -34.56, 'java'} 1443481484192
+#Deep Copy Examples:
+--------------------------------------
+>>> s3={10,-23,45,-34.56,"java","DS"}
+>>> s4=s3   # Deep Copy
+>>> print(s3,id(s3))
+{'DS', -23, 10, 45, -34.56, 'java'} 1443481483520
+>>> print(s4,id(s4))
+{'DS', -23, 10, 45, -34.56, 'java'} 1443481483520
+>>> s3.add("ampt")
+>>> print(s3,id(s3))
+{'DS', 'ampt', -23, 10, 45, -34.56, 'java'} 1443481483520
+>>> print(s4,id(s4))
+{'DS', 'ampt', -23, 10, 45, -34.56, 'java'} 1443481483520
+-----------------------------------------------------------------------------------------------------------------------
+8) isdisjoint():
+----------------------
+=>This function returns True provided both the sets (setobj1 and setobj2) does not contains common elements.
+=>This function returns False provided both the sets (setobj1 and setobj2) contains common elements.
+
+=>Syntax:-      setobj1.isdisjoint(setobj2()
+-----------------
+>>> s1={10,20,30,40,50}
+>>> s2={40,50,15,25,35}
+>>> s3={2,4,6,8,12}
+>>> s1.isdisjoint(s2)-----------False
+>>> s1.isdisjoint(s3)----------True
+>>> s2.isdisjoint(s3)---------True
+>>> s4={10,35,70,80}
+>>> s1.isdisjoint(s4)--------False
+>>> s2.isdisjoint(s4)-------False
+>>> s3.isdisjoint(s4)-------True
+>>> s1.isdisjoint(set())--------True
+>>> set().isdisjoint(set())-----True
+>>> {10,20,30}.isdisjoint({10,20,45})--------False
+-----------------------------------------------------------------------------------------------------------------
+9)  issuperset():
+---------------------------
+Syntax:-   setobj1.issuperset(setobj2)
+
+=>This  returns True provided setobj1 contains all the elements of setobj2 otherwise retuns False.
+-------------------
+Examples:
+-----------------
+>>> s1={10,20,30,40}
+>>> s2={10,20}
+>>> s3={10,20,15,5}
+>>> s4={100,200}
+>>> s1.issuperset(s2)
+True
+>>> s1.issuperset(s3)
+False
+>>> s1.issuperset(s4)
+False
+>>> s1.issuperset(set())--------True
+>>> set().issuperset(set())-------True
+>>> {10,20}.issuperset({10,20})-----True
+>>> {10}.issuperset({10,20})----------False
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+  issubset()     union()  intersection()  difference()
+
+symmetric_difference()   update()
+
+----------------------------------------------------------------------------------------------------------------
+10)  issubset()  
+----------------------
+=>Syntax:   setobj1.issubset(setobj2)
+=>This function returns True provided all the elements of setobj1 present in	     setobj2 otherwise it returns False.
+-----------------
+Example:
+------------------
+>>> s1={10,20,30,40}
+>>> s2={10,20}
+>>> s3={50,60}
+>>> s1.issubset(s2)
+False
+>>> s2.issubset(s1)
+True
+>>> s3.issubset(s1)
+False
+>>> {40,50,60}.issubset(s1)
+False
+>>> {40,50,60}.issubset(s1)
+False
+>>> set().issubset(set())
+True
+>>> set().issubset(s1)
+True
+>>> s1.issubset(s1)
+True
+------------------------------------------------------------------------------------------------------------------
+11) union():
+-------------------
+=>Syntax:-   setobj3=setobj1.union(setobj2)
+					(OR)
+=>Syntax:-   setobj3=setobj2.union(setobj1)
+
+=>This function obtains all  elements of  setobj1 and setobj2 and place them setobj3 (contains the Unique elements)
+
+Examples:
+----------------
+>>> s1={10,20,30,40}
+>>> s2={20,30,"python","java"}
+>>> print(s1,type(s1))------------{40, 10, 20, 30} <class 'set'>
+>>> print(s2,type(s2))----------{'java', 'python', 20, 30} <class 'set'>
+>>> s3=s1.union(s2)
+>>> print(s3,type(s3))----------{'python', 40, 10, 'java', 20, 30} <class 'set'>
+Special Case:
+-----------------------
+>>> s3=s1|s2
+>>> print(s3)------------{'python', 40, 10, 'java', 20, 30}
+>>> s3={10,20}.union({30,40,10} )
+>>> print(s3)------------{20, 40, 10, 30}
+>>> s3={10,20} | {30,40,10}
+>>> print(s3)-----------{20, 40, 10, 30}
+--------------------------------------------------------------------
+12)intersection():
+--------------------------
+Syntax:-   setobj3=setobj1.intersection(setobj2)
+					(OR)
+Syntax:-   setobj3=setobj2.intersection(setobj1)
+=>This function obtains all common elements of  setobj1 and setobj2 and place them setobj3 
+
+Examples:
+---------------------
+>>> s1={10,20,30,40}
+>>> s2={20,30,"python","java"}
+>>> s3=s1.intersection(s2)
+>>> print(s3)------------{20, 30}
+>>> s3=s1&s2-------
+>>> print(s3)-------------{20, 30}
+>>> {10,20,30}.intersection({50,60})-------------set()
+>>> {10,20,30}&{50,60}--------------------------------set()
+--------------------------------------------------------------------------------
+13) difference()
+-------------------------
+Syntax1:-    setobj3=setobj1.difference(setobj2)
+=>In this syntax, difference() removes common elements from setobj1 and setobj2 and place the remaining elements of setobj1 in setobj3
+
+Syntax2:-    setobj3=setobj2.difference(setobj1)
+
+=>In this syntax, difference() removes common elements from setobj2 and setobj1 and place the remaining elements of setobj2 in setobj3.
+
+Examples:
+-------------------
+>>> s1={10,20,30,40}
+>>> s2={20,30,"python","java"}
+>>> s3=s1.difference(s2)
+>>> print(s3)----------{40, 10}
+>>> s4=s2.difference(s1)
+>>> print(s4)------------{'python', 'java'}
+>>> s5=s1-s2
+>>> print(s5)------------{40, 10}
+>>> s6=s2-s1
+>>> print(s6)------------{'python', 'java'}
+-----------------------------------------------------------------------------------------------------
+14) symmetric_difference():
+-------------------------------------------
+Syntax:-     setobj3=setob1.symmetric_difference(setobj2)
+=>
+
+Examples:
+---------------------
+>> s1={10,20,30,40}
+>>> s2={20,30,"python","java"}
+>>> s3=s1.symmetric_difference(s2)
+>>> print(s3)-------------{'python', 40, 10, 'java'}
+>>> s4=s1^s2   # here ^ is called Bitwise  XOR
+>>> print(s4)-----------{'python', 40, 10, 'java'}
+---------------------------------------------------------------------------------------------------------
+Case Study Example:
+------------------------------------------------
+>>> cp={"kohli","Sachin","Rohit","Dhoni"}
+>>> sp={"Dhoni","Ram","Krish"}
+
+>>> cpsp=cp.union(sp)
+>>> print(cpsp)
+{'Krish', 'Sachin', 'kohli', 'Dhoni', 'Rohit', 'Ram'}
+>>> cplayer=cp.intersection(sp)
+>>> print(cplayer)
+{'Dhoni'}
+>>> cplayer=sp.intersection(cp)
+>>> print(cplayer)
+{'Dhoni'}
+>>> onlycp=cp.difference(sp)
+>>> print(onlycp)
+{'Rohit', 'Sachin', 'kohli'}
+>>> onlysp=sp.difference(cp)
+>>> print(onlysp)
+{'Krish', 'Ram'}
+>>> exspcp=cp.symmetric_difference(sp)
+>>> print(exspcp)
+{'Sachin', 'kohli', 'Ram', 'Krish', 'Rohit'}
+>>> exspcp=sp.symmetric_difference(cp)
+>>> print(exspcp)
+{'Sachin', 'kohli', 'Ram', 'Krish', 'Rohit'}
+----------------------------------------------------------------------------------------------------------
+14) update():
+-------------------------
+Syntax:-    setob1.update(setobj2)
+=>This function updates / adds all the elements of setob2 to setobj1.
+-------------------
+Examples:
+--------------------
+>> s1={10,"Ram"}
+>>> s2={"Python","Java"}
+>>> s1.update(s2)
+>>> print(s1)----------------{'Java', 10, 'Python', 'Ram'}
+=============================X===============================
+==========================================
+					 frozenset
+		==========================================
+=>' frozenset' is one of the pre-defined class and treated as set data type
+=> frozenset data type is used  to Store Multiple Values either of same type or different type or both types with Unique  Values"
+=>The elements of  frozenset can be obtained by converting other type collection elements by using  frozenset()
+
+=>Syntax:     frozensetobj=frozenset(collection type obj)
+
+=>An object  frozenset does not maintain insertion order bcoz PVM can display any possibility of  frozenset object elements.
+=>On the object of  frozenset, we can't perform both Indexing and slicing operations bcoz it can't maintain insertion order.
+=>An object of  frozenset belongs to  immutable ( frozenset object does not support Item assignment  and add()  ).
+-------------------------------------------------------------------------------------------------------------------
+Note:-  The Functionality of frozenset is exactly similar to set but frozenset object belongs to immutable  and an object set belongs to both Mutable (in the case of add() ) and immutable (in the case item assignment )
+-------------------------------------------------------------------------------------------------------------------
+Examples:
+-------------------
+>>> s1={10,20,30,40}
+>>> print(s1,type(s1))
+{40, 10, 20, 30} <class 'set'>
+>>> fs=frozenset(s1)
+>>> print(fs,type(fs))
+frozenset({40, 10, 20, 30}) <class 'frozenset'>
+>>> t=(10,20,10,20,10,10,30)
+>>> print(t,type(t))
+(10, 20, 10, 20, 10, 10, 30) <class 'tuple'>
+>>> fs=frozenset(t)
+>>> print(fs,type(fs))
+frozenset({10, 20, 30}) <class 'frozenset'>
+>>> l=[10,"abc","pqr",32.45,True,10]
+>>> print(l,type(l))
+[10, 'abc', 'pqr', 32.45, True, 10] <class 'list'>
+>>> fs=frozenset(l)
+>>> print(fs,type(fs))
+frozenset({32.45, True, 'abc', 10, 'pqr'}) <class 'frozenset'>
+>>> print(fs[0])--------------TypeError: 'frozenset' object is not subscriptable
+>>> print(fs[0:4])---------TypeError: 'frozenset' object is not subscriptable
+>>> fs[0]=100------TypeError: 'frozenset' object does not support item													assignment
+
+>>> fs.add(100)------------AttributeError: 'frozenset' object has no attribute 'add'
+===========================X==============================
+Functions available in Frozenset
+-------------------------------------------------------
+union(), intersection() , difference(), symmetric_difference(), issuperset(), issubset(), isdisjoint()  , 
+-----------------------------------------------------------------------------------------------------------
+
+===========================================
+dict data type (Collection data type)
+============================================
+==>In dict data type , we have a pre-defined class called 'dict'
+=>The purpose of dict data type is that "To Store data in the form of (Key,Value) 
+
+=>In (Key,Value), the value of key represents Unique and the value of Value may or may not be unique 
+=>The elements of dict must be represented within curly braces {}.
+	Syntax:
+		dictobj={key1:val1, key2:val2......key-n:val-n}  
+      here key1,key2...key-n represents values of Key
+                val1, val2...val-n represents values of Value
+     if any we use any values for keys of str type then they must enclosed within Double / Single Quotes	
+=>an object of dict maintains Insertion order
+=>On the object of dict , we can't indexing and slicing operation bcoz we haves values of Key for accessing values of Value
+=>The object of dict belongs to mutable  and the values of Keys are immutable and values of Value are mutable.
+=>We have two types of dict objects. They are
+		1) Empty dict 
+		2) Non-Empty dict 
+----------------------
+1) Empty dict 
+----------------------
+=>An Empty dict  is one , which does not  contain any (Key,Value )entries  and whose length is 0
+
+Syntax1:-                dictobj={}
+					
+Syntax2:-                dictobj=dict()
+--------------------------------------------------
+Adding the (key,value) to empty dict object:
+------------------------------------------------------------------
+Syntax:-           dictobj[key1]=value1
+			   dictobj[key2]=value2
+			   --------------------------------
+			   dictobj[key-n]=value-n
+
+Example:-  
+---------------
+>>> d1={}
+>>> d2=dict()
+>>> print(d1,type(d1),id(d1))
+{} <class 'dict'> 1672494940544
+>>> print(d2,type(d2),id(d2))
+{} <class 'dict'> 1672500230592
+>>> d1[10]="Sachin"
+>>> d1[20]="Sagar"
+>>> d1[30]="Rohit"
+>>> d1[40]="Sachin"
+>>> print(d1,type(d1),id(d1))
+{10: 'Sachin', 20: 'Sagar', 30: 'Rohit', 40: 'Sachin'} <class 'dict'> 1672494940544
+>>> d2['Rossum']=1234
+>>> d2['James']=5678
+>>> d2['Ritche']=9999
+>>> d2[1234]="Trump"
+>>> print(d2,type(d2),id(d2))
+{'Rossum': 1234, 'James': 5678, 'Ritche': 9999, 1234: 'Trump'} <class 'dict'> 1672500230592
+--------------------------------------------------------------------------------------------------------------
+2) Non-Empty dict 
+----------------------
+=>An Non-Empty dict  is one , which  contains any (Key,Value ) entries  and whose length is >0
+
+Syntax:-    dictobj={key1:val1, key2:val2......key-n:val-n}  
+			here key1,key2...key-n represents values of Key
+				    val1, val2...val-n represents values of Value
+			 if any we use any values for keys of str type then they must enclosed within Double / Single Quotes	
+
+Examples:
+-----------------
+>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1,type(d1))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} <class 'dict'>
+>>> print(d1,type(d1),id(d1))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} <class 'dict'> 1672494849664
+>>> d1[20]="Sberry"
+>>> print(d1,type(d1),id(d1))
+{10: 'apple', 20: 'Sberry', 30: 'kiwi'} <class 'dict'> 1672494849664
+>>>d1[40]="Guava"
+===================================X==============================
+=================================================
+pre-defined functions in dict object
+=================================================
+1)clear():
+----------------
+=>This is used for removing all the entries of dict object
+=>Syntax:-    dictobj.clear()
+Examples:
+----------------
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1)
+{10: 'apple', 20: 'Mango', 30: 'kiwi'}
+>>> d1.clear()
+>>> print(d1)
+{}
+
+----------------------------------------
+2) copy()::
+----------------------------------------
+=>It is used for copying the content of one dict object into another dict			(implementing shallow copy)
+=>Syntax:-    dictobj2=dictobj1.copy()
+
+Examples:
+--------------------
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1,id(d1))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} 1672494940544
+>>> d2=d1.copy()
+>>> print(d2,id(d2))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} 1672494849984
+>>> d2[20]="Sberry"
+>>> print(d2,id(d2))
+{10: 'apple', 20: 'Sberry', 30: 'kiwi'} 1672494849984
+>>> print(d1,id(d1))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} 1672494940544
+------------------------------------------------------------------------------------------------------------------
+3) get()
+---------------
+Syntax:-               varname=dictobj.get(key)
+
+=>This function is used obtaining the value of Value by Passing Value of Key
+=>If the value of Key presents then it return the coresponding value of value otherwise it returns None.
+Examples:
+-----------------
+>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> val=d1.get(10)
+>>> print(val, type(val))
+apple <class 'str'>
+>>> val=d1.get(20)
+>>> print(val, type(val))
+Mango <class 'str'>
+>>> val=d1.get(100)
+>>> print(val, type(val))
+None <class 'NoneType'>
+-----------------------------------------------------------------------------------------------------
+4) pop()
+-------------
+Syntax:-      dictobj.pop(key)
+=>It is used for removing (key,value) from dict object provided value of Key present in dict object otherwise we get KeyError
+--------------------
+Example:
+--------------------
+>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1,id(d1))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} 1672494940544
+>>> d1.pop(30)-----------'kiwi'
+>>> print(d1,id(d1))
+{10: 'apple', 20: 'Mango'} 1672494940544
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> val=d1.pop(30)
+>>> print(val, type(val))----------kiwi <class 'str'>
+>>> print(d1,id(d1))------{10: 'apple', 20: 'Mango'} 1672500230592
+>>> d1.pop(100)--------KeyError: 100
+-----------------------------------------------------------------------------------------------------------------
+5) poptem():
+	Syntax:-      dictobj.popitem()	
+=>It is used removing  and returning last entry of dict object.
+=>If we call this function empty dict object then we get KeyError
+
+Examples:
+-------------------
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1,id(d1))
+{10: 'apple', 20: 'Mango', 30: 'kiwi'} 1672494940544
+>>> d1.popitem()
+(30, 'kiwi')
+>>> print(d1,id(d1))
+{10: 'apple', 20: 'Mango'} 1672494940544
+>>> d1.popitem()
+(20, 'Mango')
+>>> print(d1,id(d1))
+{10: 'apple'} 1672494940544
+>>> d1.popitem()
+(10, 'apple')
+>>> print(d1,id(d1))
+{} 1672494940544
+>>> d1.popitem()----------------------KeyError: 'popitem(): dictionary is empty'
+------------------------------------------------------------------------------------------------------------------
+6) keys()
+----------------
+Syntax:-     varname=  dictobj.keys()
+=>This function is used obtaining set of keys in the form an object and  whose type is <class 'dict_keys'>
+   
+Examples:
+---------------------
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1)
+{10: 'apple', 20: 'Mango', 30: 'kiwi'}
+>>> d1.keys()------------dict_keys([10, 20, 30])
+>>> k=d1.keys()
+>>> print(k, type(k))---------dict_keys([10, 20, 30]) <class 'dict_keys'>
+>>> for kv  in k:
+...     print(kv)
+			...
+			10
+			20
+			30
+>>> for k in d1.keys():
+...     print(k)
+			...
+			10
+			20
+			30
+-------------------------------------------------------------------------------------------------------------------
+7) values()
+----------------
+Syntax:-     varname=  dictobj.values()
+=>This function is used obtaining set of values in the form of an object and  whose type is <class 'dict_values'>
+
+Examples:
+--------------------
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1)
+{10: 'apple', 20: 'Mango', 30: 'kiwi'}
+>>> d1.values()
+dict_values(['apple', 'Mango', 'kiwi'])
+>>> v=d1.values()
+>>> print(v, type(v))--dict_values(['apple', 'Mango', 'kiwi']) <class 'dict_values'>
+>>> for v in d1.values():
+...     print(v)
+		...
+		apple
+		Mango
+		kiwi
+------------------------------------------------------------------------------------------------------------
+8) items()::
+----------------------------
+Syntax:-      varname=dictobj.items()
+=>This function is used obtaining set of (Key,value) entries  in the form an object and  whose type is <class 'dict_items'>
+
+
+Examples:
+--------------------
+>>> d1={10:"apple", 20:"Mango",30:"kiwi"}
+>>> print(d1)
+{10: 'apple', 20: 'Mango', 30: 'kiwi'}
+>>> d1.items()
+dict_items([(10, 'apple'), (20, 'Mango'), (30, 'kiwi')])
+>>> kvs=d1.items()
+>>> print(kvs, type(kvs))
+dict_items([(10, 'apple'), (20, 'Mango'), (30, 'kiwi')]) <class 'dict_items'>
+>>> for kv in kvs:
+...     print(kv)
+...
+(10, 'apple')
+(20, 'Mango')
+(30, 'kiwi')
+>>> for k,v in kvs:
+...     print(k,"--->",v)
+...
+10 ---> apple
+20 ---> Mango
+30 ---> kiwi
+------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+    update()
+-------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+    update()
+-------------------------------------------------------------------------------------------------------------------
+Syntax:-    dictobj1.update(dictobj2)
+
+=> This function updates the dictobj1 values with dictobject2 values.
+
+=>Examples:
+---------------------------
+>> d1={"stno":10,"name":"Rajesh"}
+>>> d2={"sub1":"Python","sub2":"Java"}
+>>> d1.update(d2)
+>>> print(d1)
+{'stno': 10, 'name': 'Rajesh', 'sub1': 'Python', 'sub2': 'Java'}
+>>> d3={10:"apple",20:"mango"}
+>>> d4={20:"Sberry",40:"Guava"}
+>>> d3.update(d4)
+>>> print(d3)
+{10: 'apple', 20: 'Sberry', 40: 'Guava'}
+>>>
+=======================================
+none type   data type
+=======================================
+=>'NoneType' is one the pre-defined class and treated as None type Data type
+=> "None" is keyword acts as value for <class,'NoneType'>
+=>The value of 'None' is not False, Space , empty  , 0 
+=>An object of NoneType class can't be created explicitly.
+--------------------------------------------------------------------
+Examples:
+------------------
+>>> a=None
+>>> print(a,type(a))------------None <class 'NoneType'>
+>>> a=NoneType()---------NameError: name 'NoneType' is not defined
+-------------------------------------------------------------------------------------------------------------------
+
+=================================================
+Writing  the data in Python
+=================================================
+=>Writing  the data in Python is nothing but displaying the result of python program on the console
+=>To display the result of python program on the console, we use a pre-defined function called " print() "
+=>In other words print() is used for displying the result of python program on the console (monitor)
+---------------------
+=>Syntax1:
+---------------------
+		print(var1,var2....var-n)
+=>This Syntax displays the values of var1,var2...var-n
+Examples:
+-----------------
+>>> a=10
+>>> print(a)
+10
+>>> a=100
+>>> b=200
+>>> print(a,b)
+100 200
+======================================================
+=>Syntax2:
+---------------------
+		print(message)
+=>here Message is of type   <class,'str'>
+Examples:-
+------------------
+>> print("Hello Python World")----------Hello Python World
+>>> print("Hello"+"python"+"world")----Hellopythonworld
+======================================================
+=>Syntax3:
+---------------------
+print(values cum message)  (or) print(message cum values)
+Examples:
+--------------------
+>>> a=10
+>>> #val of a=10
+>>> print("val of a=",a)
+val of a= 10
+>>> #10 is the val of a
+>>> print(a,"is the val of a")
+10 is the val of a
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> #sum=30
+>>> print("sum=",c)
+sum= 30
+>>> #30 is the sum
+>>> print(c,"is the sum")
+30 is the sum
+>>> #sum of 10 and 20=30
+>>> print("sum of ",a,"and ",b,"=",c)
+sum of  10 and  20 = 30
+>>> #sum(10,20)=30
+>>> print("sum(",a,",",b,")=",c)
+sum( 10 , 20 )= 30
+>>> a=10
+>>> b=20
+>>> c=30
+>>> d=a+b+c
+>>> #sum of 10,20 and 30 = 60
+>>> print("sum of ",a,",",b," and ",c,"=",d)
+sum of  10 , 20  and  30 = 60
+>>> #sum(10,20,30)=60
+>>> print("sum(",a,",",b,",",c,")=",d)
+sum( 10 , 20 , 30 )= 60
+======================================================
+=>Syntax4:
+---------------------
+		print(values cum message with format() ) 
+				(or) 
+		print(message cum values with format())
+-------------------
+Examples:
+------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print("val of a={}".format(a) )
+val of a=10
+>>> print("Val of b={}".format(b))
+Val of b=20
+>>> print("sum={}".format(c))
+sum=30
+>>> #sum of 10 and 20 = 30
+>>> print("sum of ",a," and ",b,"=",c)
+sum of  10  and  20 = 30
+>>> print("sum of {} and {}={}".format(a,b,c))
+sum of 10 and 20=30
+>>> #sum(10,20)=30
+>>> print("sum(",a,",",b,")=",c)
+sum( 10 , 20 )= 30
+>>> print("sum({},{})={}".format(a,b,c))
+sum(10,20)=30
+============================================================
+=>Syntax5:
+---------------------
+		print(values cum message with format specifiers)
+Examples:
+----------------
+>> a=100
+>>> print("val of a={}".format(a))
+val of a=100
+>>> print("val of a=%d" %a)
+val of a=100
+>>> print("val of a=%f" %a)
+val of a=100.000000
+>>> print("val of a=%.2f" %a)
+val of a=100.00
+>>> a="Rossum"
+>>> #name=Rossum
+>>> print("Name=%s" %a)
+
+>>> rno=10
+>>> name="Rossum"
+>>> #output--->My RollNo:10  and My Name : Rossum
+>>> print("My Roll No : %d and My Name : %s " %(rno,name) )
+My Roll No : 10 and My Name : Rossum
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> #sum of 10 and 20 = 30
+>>> print("sum of %d and %d=%f" %(a,b,c))
+sum of 10 and 20=30.000000
+>>> a=12.34
+>>> print("val of a=%f" %a)
+val of a=12.340000
+>>> print("val of a=%d" %a)
+val of a=12
+>>>
+
+
+=============================================
+DEVELOPMENT OF PROGRAM IN PYTHON
+=============================================
+=>A program is a collection of Optimized Instructions / statements.
+=>The purpose of writing the program is that "To solve any problem statement".
+=>In Python programming development, we must write set of optimized Instructions (or) statements  and save it on some file name with an extension .py
+ ( Filename.py--resides in Secondary memory--Hard Disk )
+ =>In Industry, we can develop program in python in two ways.
+		a) By using Interactive Approach
+		b) By using Batch Mode Approach
+--------------------------------------------------------------------------------------------
+a) By using Interactive Approach:
+------------------------------------------------------------------
+=>In This approach, Python Programmer can Issue one statement at a time and we get One output at a time.
+Examples:
+-------------------
+>>> a=100
+>>> b=200
+>>> c=a+b
+>>> print(a,b,c)
+100 200 300
+------------------------------
+Examples  software:-     Python Command Prompt
+------------------------------        Python IDLE SHELL
+=>It is not recommended to use Interactive Mode  for Big problem solving statements But recommeded to use to test one statement at a time.
+--------------------------------------------------------X---------------------------------------------------------
+b) By using Batch Mode Approach:
+------------------------------------------------------
+=>In Approach, we develop set /batch of Instructions / statements  amd we save on some filename with an extesion .py  (source code---filename.py)
+
+=>To Run the Python program , we use a tool call  python (or) py and whose syntax is 
+			python   filename.py
+					(or)
+			py    filename.py
+
+Examples:-   e:\\KVR-FullStack-DS\Fundas> py  Sum1.py  
+			(OR)
+Examples:-   e:\\KVR-FullStack-DS\Fundas> python  Sum1.py
+
+-----------------------------------------------------------
+Examples for Batch Mode Softwares:
+---------------- ------------------------------------------
+		a) Python  IDLE SHELL 
+		b) EDIT PLUS
+		c) Pycharm
+		d) Spider
+		e) Jupiter Note Book...etc
+----------------------------------------------------------------------------------
+=================================================
+Reading  the data from Key board
+=================================================
+=>To read the data from key board , we have two functions. They are
+		a) input()
+		b) input(Message)
+a) input():
+  -------------
+=>This functions is used for reading any type of data from Key board  in the form of str.
+=>Syntax:-       varname=input()
+=>here varname is of type <class,'str'> and contains any value enetred by user and whose value can be converted into any fundamental data type by using any Type Casting Techniques.
+
+Examples:
+-------------------
+#program for accepting two values from KBD and multiply
+#mulex2.py
+print("Enter two values:")
+a=input()
+b=input()
+#convert the values into  float
+x1=float(a)
+x2=float(b)
+print("Mul of {} and {} ={}".format(x1,x2,x1*x2))
+=============================================================
+b) input(Message):
+------------------------------
+=>This functions is used for reading any type of data from Key board  in the form of str by prompting User Prompting Messages.
+
+=>Syntax:-       varname=input(Message)
+
+=>here varname is of type <class,'str'> and contains any value enetred by user and whose value can be converted into any fundamental data type by using any Type Casting Techniques.
+=>Message represents any User-Prompting Message 
+=================================================
+Writing  the data in Python
+=================================================
+=>Writing  the data in Python is nothing but displaying the result of python program on the console
+=>To display the result of python program on the console, we use a pre-defined function called " print() "
+=>In other words print() is used for displying the result of python program on the console (monitor)
+---------------------
+=>Syntax1:
+---------------------
+		print(var1,var2....var-n)
+=>This Syntax displays the values of var1,var2...var-n
+Examples:
+-----------------
+>>> a=10
+>>> print(a)
+10
+>>> a=100
+>>> b=200
+>>> print(a,b)
+100 200
+======================================================
+=>Syntax2:
+---------------------
+		print(message)
+=>here Message is of type   <class,'str'>
+Examples:-
+------------------
+>> print("Hello Python World")----------Hello Python World
+>>> print("Hello"+"python"+"world")----Hellopythonworld
+======================================================
+=>Syntax3:
+---------------------
+print(values cum message)  (or) print(message cum values)
+Examples:
+--------------------
+>>> a=10
+>>> #val of a=10
+>>> print("val of a=",a)
+val of a= 10
+>>> #10 is the val of a
+>>> print(a,"is the val of a")
+10 is the val of a
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> #sum=30
+>>> print("sum=",c)
+sum= 30
+>>> #30 is the sum
+>>> print(c,"is the sum")
+30 is the sum
+>>> #sum of 10 and 20=30
+>>> print("sum of ",a,"and ",b,"=",c)
+sum of  10 and  20 = 30
+>>> #sum(10,20)=30
+>>> print("sum(",a,",",b,")=",c)
+sum( 10 , 20 )= 30
+>>> a=10
+>>> b=20
+>>> c=30
+>>> d=a+b+c
+>>> #sum of 10,20 and 30 = 60
+>>> print("sum of ",a,",",b," and ",c,"=",d)
+sum of  10 , 20  and  30 = 60
+>>> #sum(10,20,30)=60
+>>> print("sum(",a,",",b,",",c,")=",d)
+sum( 10 , 20 , 30 )= 60
+======================================================
+=>Syntax4:
+---------------------
+		print(values cum message with format() ) 
+				(or) 
+		print(message cum values with format())
+-------------------
+Examples:
+------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print("val of a={}".format(a) )
+val of a=10
+>>> print("Val of b={}".format(b))
+Val of b=20
+>>> print("sum={}".format(c))
+sum=30
+>>> #sum of 10 and 20 = 30
+>>> print("sum of ",a," and ",b,"=",c)
+sum of  10  and  20 = 30
+>>> print("sum of {} and {}={}".format(a,b,c))
+sum of 10 and 20=30
+>>> #sum(10,20)=30
+>>> print("sum(",a,",",b,")=",c)
+sum( 10 , 20 )= 30
+>>> print("sum({},{})={}".format(a,b,c))
+sum(10,20)=30
+============================================================
+=>Syntax5:
+---------------------
+		print(values cum message with format specifiers)
+Examples:
+----------------
+>> a=100
+>>> print("val of a={}".format(a))
+val of a=100
+>>> print("val of a=%d" %a)
+val of a=100
+>>> print("val of a=%f" %a)
+val of a=100.000000
+>>> print("val of a=%.2f" %a)
+val of a=100.00
+>>> a="Rossum"
+>>> #name=Rossum
+>>> print("Name=%s" %a)
+
+>>> rno=10
+>>> name="Rossum"
+>>> #output--->My RollNo:10  and My Name : Rossum
+>>> print("My Roll No : %d and My Name : %s " %(rno,name) )
+My Roll No : 10 and My Name : Rossum
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> #sum of 10 and 20 = 30
+>>> print("sum of %d and %d=%f" %(a,b,c))
+sum of 10 and 20=30.000000
+>>> a=12.34
+>>> print("val of a=%f" %a)
+val of a=12.340000
+>>> print("val of a=%d" %a)
+val of a=12
+>>>
+
+#accept.py
+print("Enter Ur Name:")
+name=input()
+print("Ur Name:{}".format(name))
+print("=============OR==============")
+#name=input("Enter Ur Name:\n")
+print("Ur name:%s" %input("Enter Ur Name:\n") )
+
+#program for accepting two values from KBD and multiply
+#mulex1.py
+print("Enter First Value:")
+a=input()  # a= 4
+print("Enter Second value:")
+b=input() #  b= 5
+#c=a*b     ----error---TypeError
+x1=float(a)
+x2=float(b)
+x3=x1*x2
+print("mul({},{})={}".format(x1,x2,x3))
+
+#program for accepting two values from KBD and multiply
+#mulex2.py
+print("Enter two values:")
+a=input()
+b=input()
+#convert the values into  float
+x1=float(a)
+x2=float(b)
+print("Mul of {} and {} ={}".format(x1,x2,x1*x2))
+
+#program for accepting two values from KBD and multiply
+#mulex5.py
+a=float(input("Enter First value:"))
+b=float(input("Enter Second value:"))
+print("mul({},{})={}".format(a,b,a*b))
+
+
+#program for cal simple interest
+#simpleint.py
+p=float(input("Enterb Principle Amount:"))
+t=float(input("Enter  Time:"))
+r=float(input("Enter rate of interest:"))
+#cal si
+si=(p*t*r)/100
+totamt=p+si
+print("-"*50)
+print("\tSimple Interest Calculation")
+print("-"*50)
+print("\tPrinciple Amount:{}".format(p))
+print("\tTime:{}".format(t))
+print("\tRate of Intrest:{}".format(r))
+print("\tSimple Intrest on amount:{}".format(si))
+print("\tTotal Amount to Pay:{}".format(totamt))
+print("*"*50)
+
+
+===============================================
+Operators in Python
+===============================================
+=>An Operator is a symbol, which will perform certain operations.
+=>if any operator connected with two or more variables (or) objects then  it is called Expression.
+=>In Python Programming, we have 7 types of Operators. They are	
+
+			1) Arithmetic Operators
+			2) Assignment  operator
+			3) Relational Operators 
+			4) Logical Operators
+			5) Bitwise Operators.
+			6) Membership Operators
+					a) in
+					b) not in
+			7) Identity Operators
+					a) is 
+					b) is not 
+
+
+=================================
+1) Arithmetic Operators
+=================================
+=>The Arithmetic Operators are the symbols which are used for performing different types of arithmetic Operations.
+=>If two or more objects  / variables connected with Arithmetic Operators then it is called Arithmetic Expression.
+=>In python programming, we have 7 types of Arithmetic Operators and they given in the following table.
+=================================================================
+SlNo		Symbol			Meaning		Examples a=10 b=3
+=================================================================
+1.			+				Addition			print(a+b)------>13
+
+2.			-				Substraction		print(a-b)------>7
+
+3.			*				Multiplication	print(a*b)------>30
+
+4.			/				Division			print(a/b)-------3.333333....
+							(Float Quotient)
+	
+5.			//			       Floor Division	print(a//b)---->3
+						    (Integer Quotient)
+
+6.			%				Modulo division      print(a%b)----1
+							(remainder)
+
+7.                     **				exponentitation     print(a**b)-----1000
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+=========================================
+				Assignment  operator
+		=========================================
+=>The symbol for assignment operator is  = (single equal to )
+=>The purpose of Assignment  operator is that to Transfer Right hand side (RHS) / Expression value to Left hand Side variable .
+=>We can use Assignment  operator in two ways. They are
+		a) Single valued Assignment
+		b) Multi valued assignment
+
+a) Single valued Assignment:
+-----------------------------------------------
+Syntax:
+			LHS varname= RHS Value / Expression
+
+Examples:
+----------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> a=10
+>>> b=20
+>>> c=30
+>>> d=a+b+c
+>>> print(d)----------60
+---------------------------------------------------------
+b) Multi valued assignment
+-----------------------------------------------
+Syntax:-       var1,var2....var-n= val1,val2....val-n 
+				(OR)
+			var1,var2....var-n= expr1,expr2......expr-n
+---------------------------
+
+Examples:
+---------------------------
+>>> a,b,c=10,20,30
+>>> ad,sb,mp=a+b,a-b,a*b*c
+>>> print(a,b,c)----------10 20 30
+>>> print(ad,sb,mp)-------30 -10 6000
+>>> a,b=100,200
+>>> print(a,b)--------100 200
+>>> a,b=b,a   # swapping logic
+>>> print(a,b)--------200 100
+
+#arithmeticopex1.py
+a=float(input("Enter Value of a:"))
+b=float(input("Enter Value of b:"))
+print("*"*50)
+print("A r i t h m e t i c  O p e r a t i o n s")
+print("*"*50)
+print("Sum({},{})={}".format(a,b,a+b))
+print("Sub({},{})={}".format(a,b,a-b))
+print("Mul({},{})={}".format(a,b,a*b))
+print("Div({},{})={}".format(a,b,a/b))
+print("FloorDiv({},{})={}".format(a,b,a//b))
+print("mod({},{})={}".format(a,b,a%b))
+print("expo({},{})={}".format(a,b,a**b))
+print("*"*50)
+
+#arithmeticopex2.py
+n=float(input("Enter Value of n:"))
+print("sqrt({})={}".format(n,n**0.5))
+
+=========================================
+3) Relational Operators 
+=========================================
+=>The purpose of  Relational Operators is that "To compare two values"
+=>If two or more objects  / variables connected with Relational Operators then it 
+    is called Relational Expression.
+=> Relational Expressions are also called Conditions and they are evaluated either to be True or False.
+=>In python programming, we have 6  types of Relational Operators and they	given in the following table.
+==============================================================
+SlNo		Symbol			Meaning		Example  a=10  b=3 c=10
+==============================================================
+1.			   >				Greater than		print(a>b)-----True
+											print(b>c)-----False
+2.			   <				 Less Than		print(a<c)----->False
+											print(b<c)----->True
+3.			  ==				Equality		       print(a==c)---->True
+                       (double =)						print(a==b)---->False
+4.			!=				Not equal to         prtint(a!=b)----->True
+											print(a!=c)----->False
+
+5.			>=			     greater than		print(a>=c)---->True
+							or equal to		print(b>=c)--->False
+
+6.			<=				Less than		print(a<=c)----->True
+							  equal to		print(a<=b)------>False
+==============================================================
+
+
+=======================================			
+Logical Operators
+=======================================
+=>Logical Operators are used for combining two or more relational expressions
+=>if two or more  relational expressions are combined with Logical Operators then it is called Logical Expression (or) Compund Condition and it is evaluated either to be True  or False.
+=>In Python Programming, we have 3 types of Logical Operators. They are given in the following table
+===============================================================
+	SLno			Symbol			Meaning	
+===============================================================
+	1.				  or				Physical ORing   
+
+	2.				 and			Physical ANDing
+
+	3.				 not				-------------------------
+===============================================================	
+1) or operator( Physical ORing ):
+----------------------------------------------------
+Truth table of   or  Operator:
+-----------------------------------------------------------------------------------
+Rel Expr1	Rel Expr2	RelExpr1 or  RelExpr2
+----------------------------------------------------------------------------------
+    False            False			False
+
+    True             False			True
+
+    False            True			True
+
+    True             True			True
+----------------------------------------------------------------------------------
+Examples:
+------------------
+>> print((10>=20) or (10==10))
+True
+>>> print((10<=20) or (10==10))
+True
+>>> print((10!=10) or (10>10))
+False
+>>> skill="python"
+>>> print(skill=="DS" or skill=="python")
+True
+>>> print(skill=="DS" or skill=="Django")
+False
+-----------------------------------------------------------------------------
+Note:- or operator is short-cuirted provided First relational expression is True  and hence the entire result logical expression is True
+-------------------------------------------------------------------------------------------------------------
+2) and operator( Physical ANDing ):
+----------------------------------------------------
+Truth table of   and  Operator:
+-----------------------------------------------------------------------------------
+Rel Expr1	Rel Expr2	RelExpr1 and  RelExpr2
+----------------------------------------------------------------------------------
+    False            False			False		
+
+    True             False			False
+
+    False            True			False
+
+    True             True			True
+----------------------------------------------------------------------------------
+Note:- 'and ' operator is short-cuirted provided First relational expression is False  and hence the entire result logical expression is False
+
+Examples:-
+>> print((10<=20) and (10==10))
+True
+>>> print((10!=10) and (10>=10))
+False
+>>> user="kvr"
+>>> pwd="python"
+>>> print((user=="kvr") and (pwd=="PytHon"))-----------False
+--------------------------------------------------------------------------------------------------------------
+3)not operator
+----------------------------------------------------
+=>not operator always gives opposite result of existing result of relataional Expression.
+Truth table of   not  Operator:
+-----------------------------------------------------------------------------------
+Rel Expr1	not Rel Expr2	
+----------------------------------------------------------------------------------
+    False            True			
+
+    True             False			
+----------------------------------------------------------------------------------
+
+
+Examples:
+-----------------
+>>> a=10
+>>> b=20
+>>> print(a<=b)
+True
+>>> print(not(a<=b))---------False
+>>> print(!(a<=b))-----------SyntaxError: invalid syntax 
+NOTE:-  the symbol " ! " is not a   not operator and it is invalid in python
+-------------------
+Examples:
+-------------------
+>> user="kvr"
+>>> pwd="python"
+>>> print((user=="kvr") and (pwd=="PytHon"))
+False
+>>> print(not ((user=="kvr") and (pwd=="PytHon")) )
+True
+>>> print(not ((user=="kvr") or (pwd=="PytHon")) )
+False
+>>> print(not ((user=="java") and (pwd!="PytHon")) )
+True
+
+
+
+
+
+==============================================
+Example:-- Comp[any want to select 
+      Pskill=   Python  and   Django or   ML  or        DS
+				and
+      Sskill=  "oralce"   or   MySQL   or MongoDB
+				and
+      serverskill=tomcat  or weblogic or JBoss  or Web shepre
+
+      (pskill=="python)      (sskill=="oracle")      (serverskill=="tomcat")
+
+
+==========================================
+5) Bitwise Operators
+==========================================
+=>The operators perform various operations on integer data in the form bit by bit.
+=>Since these operators perform various operations on integer data in the form bit by bit and hence they are called "Bitwise Operators"
+=>We have 6 bitwise operators. They are
+
+		1) Bitwise Left Shift Operator( << )
+		2) Bitwise Right shift Operator ( >> )
+		3) Bitwise OR Operator ( |  )
+		4) Bitwise AND Operator ( & )
+		5) Bitwise XOR Operator( ^ )
+		6) Bitwise Complement Operator ( ~ )
+=================================================================
+1) Bitwise Left Shift Operator( << ):-
+-----------------------------------------------------
+Syntax:-        resvar= GivenNumber << no.of bits
+-------------
+This operator shifts (or) flipped-off the no.of bits towards left and places zero in the empty places of Right side.
+------------------
+Examples:
+------------------
+>> c=a<<b
+>>> print(c)
+80
+>>> print(12<<2)
+48
+>>> print(14<<3)
+112
+>>> print(4<<3)
+32
+>>> print(19<<2)
+76
+>>> print(19<<3)
+152
+>>>
+===========================================================
+2) Bitwise Right shift Operator ( >> )
+---------------------------------------------------------
+Syntax:-     resvar= GivenNumber>>no. of bits
+
+This operator shifts (or) flipped-off the no.of bits towards Right and places zero in the empty places of Left side.
+
+Examples:
+-----------------
+>>> a=10
+>>> b=3
+>>> c=a>>b
+>>> print(c)
+1
+>>> print(20>>2)
+5
+>>> print(100>>4)
+6
+==============================================================
+3) Bitwise OR Operator ( |  ):
+--------------------------------------------
+=>The functionality of Bitwise OR (|) is shown in the following truth table
+
+ ------------------------------------------------------------
+ State1      State2            State1 |  State2
+ ------------------------------------------------------------
+     0               0                             0
+     1               0			      1
+     0               1			      1
+     1               1                              1
+ ------------------------------------------------------------
+Examples:
+------------------
+>>>a=4----------------------->  0 1 0 0
+>>>b=3----------------------->  0 0 1 1
+                                          ---------------
+>>>c=a|b -------------------->  0 1 1 1------------->Result is 7
+
+>>>a=5-----------------------> 0 1 0 1
+>>>b=7-----------------------> 0 1 1 1
+                                         --------------
+>>>c=a|b-------------------->  0 1 1 1-------------->Result----7 
+
+Sepcial Case:
+----------------------
+>>>A={10,20,30}
+>>>B={20,30,40,50}
+>>>C=A.union(B)--------->{50, 20, 40, 10, 30} <class 'set'>
+
+>>>D=A | B------------> {50, 20, 40, 10, 30} <class 'set'>
+============================================================
+4) Bitwise AND Operator ( &  ):
+--------------------------------------------
+=>The functionality of Bitwise AND (&) is shown in the following truth table
+
+ ------------------------------------------------------------
+ State1      State2            State1 & State2
+ ------------------------------------------------------------
+     0               0                           0  
+     1               0			    0
+     0               1			    0  
+     1               1                            1  
+ ------------------------------------------------------------
+Examples:
+------------------
+>>>a=4----------------------->  0 1 0 0
+>>>b=3----------------------->  0 0 1 1
+                                          ---------------
+>>>c=a&b -------------------->0 0 0 0  ------------->Result is 0
+
+>>>a=4----------------------> 0 1 0 0
+>>>b=7--------------------->  0 1 1 1
+				--------------------------
+>>>c=a&b------------------> 0 1 0 0 --------------Result is  4
+				---------------------------
+
+Special Case:
+--------------------------
+>>> A={10,20,30}
+>>> B={20,30,40,50}
+>>> C=A.intersection(B)
+>>> print(C, type(C))------------{20, 30} <class 'set'>
+>>>   (OR)
+>>> D=A&B
+>>> print(D, type(D))------------{20, 30} <class 'set'>
+----------------------------------------------------------------------------------------------------------------
+5) Bitwise XOR Operator( ^ ):
+---------------------------------------------
+=>The functionality of Bitwise XOR  (^) is shown in the following truth table
+ ------------------------------------------------------------
+ State1      State2            State1 ^ State2
+ ------------------------------------------------------------
+     0               0                        0  
+     1               0			 1 
+     0               1			 1 
+     1               1                         0 
+ ------------------------------------------------------------
+ Examples:
+------------------
+>>>a=4----------------------->  0 1 0 0
+>>>b=3----------------------->  0 0 1 1
+                                          ---------------
+>>>c=a^b -------------------->0 1  1 1  ------------->Result is 7
+
+>>>a=4----------------------> 0 1 0 0
+>>>b=7--------------------->  0 1 1 1
+				--------------------------
+>>>c=a^b------------------> 0 0 1 1 --------------Result is  3
+				---------------------------
+
+Special Case:
+----------------------
+>>> A={10,20,30}
+>>> B={20,30,40,50}
+>>> C=A.symmetric_difference(B)
+>>> print(C)-----------{40, 10, 50}
+>>> D=A^B
+>>> print(D,type(D))---------{40, 10, 50} <class 'set'>
+#swapping
+------------------
+>>>a,b=3,4
+>>>print(a,b)---------  3   4
+>>>a=a^b
+>>>b=a^b
+>>>a=a^b
+>>>print(a,b)--------------4   3
+================================X================================----------------------------------------------------------------
+6) Bitwise Complement Operator ( ~ ):
+------------------------------------------------------------
+Syntax:    res = ~value
+------------
+=>This operator gives one's complement  of a given number.
+		
+Examples:
+-----------------
+>>>a=10
+>>> res= ~a---------------------->   ~ ( 1 0 1 0 )
+                                                     -( 1 0 1 0 +1)===>     -  1  0  1 0
+                                                                                             0 0  0  1
+											-----------------
+											   -1  0  1   1  ---->Result -11
+						    
+>>>print(res)----->  -11
+>>> a=-101
+>>> print(~a)
+100
+>>> a=-203
+>>> print(~a)
+202
+>>> print(~15)
+-16
+---------------------
+NOTE:-   ~number------->   - (number+1)
+================================X================================
+===========================================
+Membership Operators
+===========================================
+=>The purpose of Membership Operators is that "To check the existence of a perticular value in iterable object( contains more number of value)"
+=>We have two types of membership operators. They are
+		a) in 
+		b) not in
+
+--------
+a) in :
+--------
+Syntax:-     Value   in   iterable object
+
+=>"in" operators returns True provided the "value" present in Iterable object.
+     "in" operators returns False provided the "value" not present in Iterable object.
+Examples:
+-----------------
+>>> l1=[10,"Rossum","python",23.45,True]
+>>> print(l1)----------[10, 'Rossum', 'python', 23.45, True]
+>>> 10 in l1---------True
+>>> 100 in l1----------False
+>>> "Rossum" in l1----------True
+>>> "rossum" in l1---------False
+-------------------------------------------------------------
+b) not in :
+-----------------
+Syntax:-     Value   not in  iterable object
+
+=>"not in" operators returns True provided the "value" not present in Iterable object. "not in" operators returns False provided the "value" present in Iterable object.
+Examples:
+-----------------
+>>> l1=[10,"Rossum","python",23.45,True]
+>>> True not in l1
+False
+>>> 100 not in l1
+True
+>>> "java" not in l1
+True
+>>> "PYTHON" not in l1
+True
+>>> "python" not in l1
+False
+--------------------------------------------------------------------------------------------
+Special Case Examples:
+----------------------------------------
+>>> s="PYTHON"
+>>> print(s)
+PYTHON
+>>> "P" in s
+True
+>>> "p" not in s
+True
+>>> "PYT" in s
+True
+>>> "HON" not in s
+False
+>>> "HON" in s
+True
+>>> "NO" in s
+False
+>>> "NO" not in s
+True
+>>> "NO" not in s[::-1]
+False
+>>> "NO" in s[::-1]
+True
+>>> l1=[10,"Rossum","python",23.45,True]
+>>> "th" in l1
+False
+>>> "th" in l1[2]
+True
+>>> "ht" in l1[2]
+False
+>>> "ht" in l1[2][::-1]
+True
+>>> "ue" in str(l1[-1])[::-1]
+False
+---------------------------------------------------------------------
+
+
+
+=======================================
+Identity Operators
+=======================================
+=>The purpose of  Identity Operators is that " To compare Memory Address of two objects"
+=>We have two types of  Identity Operators. They are
+			a) is 
+			b) is not
+a) is :
+------------
+Syntax:-            var1 is var2
+=>"is" operator return True provided var1 and var2 points (or) contains same memory address otherwise returns False
+
+b) is not  :
+----------------
+Syntax:-            var1 is not var2
+=>"is not " operator return True provided var1 and var2 points (or) contains Different  memory address otherwise returns False
+--------------------------------------------------------------------------------------------------------
+Examples:
+---------------------
+>>> a=None
+>>> b=None
+>>> print(a, type(a), id(a))
+None <class 'NoneType'> 140706145873112
+>>> print(b, type(b), id(b))
+None <class 'NoneType'> 140706145873112
+>>> a is b
+True
+>>> a is not  b
+False
+----------------------------------------------
+>>> d1={10:"Apple",20:"Mango"}
+>>> d2={10:"Apple",20:"Mango"}
+>>> print(d1, type(d1), id(d1))
+{10: 'Apple', 20: 'Mango'} <class 'dict'> 2273581342464
+>>> print(d2, type(d2), id(d2))
+{10: 'Apple', 20: 'Mango'} <class 'dict'> 2273581342656
+>>> d1 is d2
+False
+>>> d1 is not  d2
+True
+--------------------------------------------------------------------------------------
+>>> s1={10,20,30}
+>>> s2={10,20,30}
+>>> print(s1, type(s1), id(s1))
+{10, 20, 30} <class 'set'> 2273586542848
+>>> print(s2, type(s2), id(s2))
+{10, 20, 30} <class 'set'> 2273586541728
+>>> s1 is s2
+False
+>>> s1 is not  s2
+True
+>>> fs1=frozenset(s1)
+>>> fs2=frozenset(s1)
+>>> print(fs1, type(fs1), id(fs1))
+frozenset({10, 20, 30}) <class 'frozenset'> 2273586543968
+>>> print(fs2, type(fs2), id(fs2))
+frozenset({10, 20, 30}) <class 'frozenset'> 2273586544416
+>>> fs1 is not fs2
+True
+>>> fs1 is fs2
+False
+---------------------------------------------------------------------------------------------
+>>> t1=(10,20,"HYD")
+>>> t2=(10,20,"HYD")
+>>> print(t1, type(t1), id(t1))
+(10, 20, 'HYD') <class 'tuple'> 2273586294144
+>>> print(t2, type(t2), id(t2))
+(10, 20, 'HYD') <class 'tuple'> 2273586531264
+>>> t1 is t2
+False
+>>> t1 is not  t2
+True
+>>> l1=[10,20,23.45]
+>>> l2=[10,20,23.45]
+>>> print(l1, type(l1), id(l1))
+[10, 20, 23.45] <class 'list'> 2273586279872
+>>> print(l2, type(l2), id(l2))
+[10, 20, 23.45] <class 'list'> 2273586294080
+>>> l1 is l2
+False
+>>> l1 is not  l2
+True
+-------------------------------------------------------------------------------------------------
+>>> ba1 is ba2
+False
+>>> ba1 is not  ba2
+True
+>>> b1=bytes([10,20,30])
+>>> b2=bytes([10,20,30])
+>>> print(b1,type(b1), id(b1))
+b'\n\x14\x1e' <class 'bytes'> 2273586507424
+>>> print(b2,type(b2), id(b2))
+b'\n\x14\x1e' <class 'bytes'> 2273586305760
+>>> b1 is b2
+False
+>>> b1 is not  b2
+True
+------------------------------------------------------------------------------------------------------
+>>> s1="HYD"
+>>> s2="HYD"
+>>> print(s1, type(s1), id(s1))
+HYD <class 'str'> 2273586593648
+>>> print(s2, type(s2), id(s2))
+HYD <class 'str'> 2273586593648
+>>> s1 is s2
+True
+>>> s1 is not s2
+False
+>>> s3="Hyd"
+>>> print(s3, type(s3), id(s3))
+Hyd <class 'str'> 2273586602416
+>>> s1 is s3
+False
+>>> s1 is not  s3
+True
+--------------------------------------------------------------------------------------
+>>> a=2+3j
+>>> b=2+3j
+>>> print(a, type(a), id(a))
+(2+3j) <class 'complex'> 2273586354672
+>>> print(b, type(b), id(b))
+(2+3j) <class 'complex'> 2273586354288
+>>> a is b
+False
+>>> a is not b
+True
+--------------------------------------------------------------------------------------
+>>> a=True
+>>> b=True
+>>> print(a, type(a), id(a))
+True <class 'bool'> 140706145822824
+>>> print(b, type(b), id(b))
+True <class 'bool'> 140706145822824
+>>> a is not b
+False
+>>> a is b
+True
+>>> a=True
+>>> b=False
+>>> print(a, type(a), id(a))
+True <class 'bool'> 140706145822824
+>>> print(b, type(b), id(b))
+False <class 'bool'> 140706145822856
+>>> a is not b
+True
+>>> a is b
+False
+-----------------------------------------------------------------------------------------------
+>>> a=12.3
+>>> b=12.3
+>>> print(a, type(a), id(a))
+12.3 <class 'float'> 2273586354704
+>>> print(b, type(b), id(b))
+12.3 <class 'float'> 2273586354768
+>>> a is b
+False
+>>> a is not b
+True
+---------------------------------------------------------------------------------------------
+>>> a=10
+>>> b=10
+>>> print(a, type(a), id(a))
+10 <class 'int'> 2273580378704
+>>> print(b, type(b), id(b))
+10 <class 'int'> 2273580378704
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=255
+>>> b=255
+>>> print(a, type(a), id(a))
+255 <class 'int'> 2273580575088
+>>> print(b, type(b), id(b))
+255 <class 'int'> 2273580575088
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=257
+>>> b=257
+>>> print(a, type(a), id(a))
+257 <class 'int'> 2273586354288
+>>> print(b, type(b), id(b))
+257 <class 'int'> 2273586354576
+>>> a is b
+False
+>>> a is not b
+True
+>>> a=256
+>>> b=256
+>>> print(a, type(a), id(a))
+256 <class 'int'> 2273580575120
+>>> print(b, type(b), id(b))
+256 <class 'int'> 2273580575120
+>>> a=300
+>>> b=300
+>>> a is b
+False
+>>> a is  not b
+True
+>>> a=-2
+>>> b=-2
+>>> print(a, type(a), id(a))
+-2 <class 'int'> 2273580378320
+>>> print(b, type(b), id(b))
+-2 <class 'int'> 2273580378320
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=-5
+>>> b=-5
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=-6
+>>> b=-6
+>>> a is b
+False
+>>> a is not b
+True
+>>> print(a, type(a), id(a))
+-6 <class 'int'> 2273586354864
+>>> print(b, type(b), id(b))
+-6 <class 'int'> 2273586354832
+>>> a,b=300,300
+>>> print(a, type(a), id(a))
+300 <class 'int'> 2273586354576
+>>> print(b, type(b), id(b))
+300 <class 'int'> 2273586354576
+>>> a is b
+True
+>>> a is not b
+False
+>>> a,b=300,301
+>>> print(a, type(a), id(a))
+300 <class 'int'> 2273586354544
+>>> print(b, type(b), id(b))
+301 <class 'int'> 2273586354896
+>>> l1,l2=[10,"KVR"],[10,"KVR"]
+>>> print(l1, type(l1), id(l1))
+[10, 'KVR'] <class 'list'> 2273581341888
+>>> print(l2, type(l2), id(l2))
+[10, 'KVR'] <class 'list'> 2273586293312
+>>> a,b=20000,20000
+>>> print(a, type(a), id(a))
+20000 <class 'int'> 2273586354288
+>>> print(b, type(b), id(b))
+20000 <class 'int'> 2273586354288
+>>> a is b
+True
+>>> a is not b
+False
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
